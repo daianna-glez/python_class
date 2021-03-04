@@ -1,5 +1,5 @@
 '''
-NAME
+NAME Daianna Gonzalez Padilla :) :)
 	reverse-complement.py
     
 VERSION
