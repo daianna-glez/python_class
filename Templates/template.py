@@ -1,32 +1,47 @@
 '''
 NAME 
-    reverse-complement.py
+    [programName].py
 
 VERSION
-    1.0
+    [#.#]
 
 AUTHOR
-    Daianna González Padilla
+    [Full name] <[username]@gmail.com>
+	[Other authors]: [Modifications]
 
 
 DESCRIPTION
-        Make the reverse complement of DNA sequence
+    [Describe the program]
 
 CATEGORY
-        Genomic Sequence
+    [category of the program: sequence analysis for example]
 
 USAGE
 
-    % python reverse-complement.py -i
+    [programName][-options/arguments]
 
-    example
-
-    % python reverse-complement -i sequence.txt
-
+ARGUMENTS
+    [name]  [description]
+    [name]  [description]
+    [name]  [description]
+    
+INPUT
+    [files or directories used to run the program and formats]
+    
+OUTPUT
+    [file names and formats]
+    
+EXAMPLES
+    [Example 1: describe the example, input and outputs]
 
 '''
 
-#1
-#2
-#3
-#3
+# 1. [Describe the step 1]
+
+# 2. [Describe the step 2]
+
+# 3. [Describe the step 3]
+
+# 4. [Describe the step 4]
+
+
