@@ -33,7 +33,7 @@ EXAMPLES
                                          "The C content of the sequence is: 4"
                                          "The G content of the sequence is: 1"
 GITHUB LINK
-
+    https://github.com/daianna21/python_class/blob/master/scripts/ATCG_content.py
 '''
 
 # 1. The DNA sequence is requested from the user and stored on the dna variable
