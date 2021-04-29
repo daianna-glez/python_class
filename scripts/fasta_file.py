@@ -32,7 +32,9 @@ EXAMPLES
     Example 1: gets seq_1 = "ATCGTACGATCGATCGATCGCTAGACGTATCG" and returns
     > seq_1
     ATCGTACGATCGATCGATCGCTAGACGTATCG
-
+    
+GITHUB LINK
+    https://github.com/daianna21/python_class/blob/master/scripts/fasta_file.py
 
 '''
 
