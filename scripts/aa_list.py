@@ -31,7 +31,8 @@ EXAMPLES
     Example 1: gets  = get_aa_percentage("MSRSLLLRFLLFLLLLPPLP", ["M"]) and returns
     "The content of those amino acids in your protein is 5.0%"
 
-GITHUB LINK
+SOURCE
+    https://github.com/daianna21/python_class/blob/master/scripts/aa_list.py
 
 
 '''
