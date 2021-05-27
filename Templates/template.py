@@ -24,7 +24,12 @@ ARGUMENTS
     [name]  [description]
     [name]  [description]
     [name]  [description]
-    
+
+FUNCTIONS
+	[Name of the function] [description, parameters, return]
+	[Name of the function] [description, parameters, return]
+	[Name of the function] [description, parameters, return]
+
 INPUT
     [files or directories used to run the program and formats]
     
