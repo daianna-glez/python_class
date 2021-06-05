@@ -1,3 +1,3 @@
-
-y= 3 + 3
-print(y+1) #todo checar
+import pkg
+pkg.fun1()
+pkg.mod2.fun2()
