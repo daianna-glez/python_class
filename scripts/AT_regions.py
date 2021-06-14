@@ -61,13 +61,6 @@ def AT_rich_seq(dna):
         if empty==False:
             print("No AT rich regions found")
 
-
-
-
-
-
-
-
     else:
         for m in matches:
             base = m.group()
