@@ -29,7 +29,7 @@ FUNCTIONS
     C_k([grade]): determines the average clustering of the nodes with a certain garde
 
 GITHUB LINK
-    https://github.com/daianna21/python_class/blob/master/pgr/DNA.py...
+    https://github.com/daianna21/python_class/blob/master/bio_analysis/network.py
 
 '''
 
