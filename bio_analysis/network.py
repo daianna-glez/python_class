@@ -15,6 +15,9 @@ DESCRIPTION
 CATEGORY
     Regulatory networks
 
+USAGE
+    import bio_analysis.network
+
 CLASSES
     net([network path]): defines a network as an object
 
