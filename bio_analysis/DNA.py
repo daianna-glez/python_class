@@ -20,12 +20,12 @@ USAGE
 
 FUNCTIONS
     get_sequence(str): validates the sequence given is DNA
-    get orf(str): obtains the orf of the sequence
+    get_orf(str): obtains the orf of the sequence
     get_protein(str): obtains the peptide codified by the sequence
     atcg_content(str): determines the A,T,C ang G content of the sequence
     at_content(str): determines the AT content of the sequence
     gc_content(str): determines the GC content of the sequence
-    at_regions (str): obtains the AT rich regions of the sequence
+    at_regions(str): obtains the AT rich regions of the sequence
     revcomp_seq(str): obtains the complementary reverse sequence
 
 GITHUB LINK
@@ -110,8 +110,7 @@ def get_protein(dna):
         'TGC': 'C', 'TGT': 'C', 'TGA': '', 'TGG': 'W'}
     # Call the function to determine if the sequence is dna
     dna=get_sequence(dna)
-    # Find the orf within the sequence by calling the function get_orf(), if it does not return a 0, the codons are
-    # obtained
+    # Find the orf within the sequence by calling the function get_orf()
     if not get_orf(dna)==0:
         # The orf is obtained
         orf = get_orf(dna)
