@@ -26,7 +26,7 @@ FUNCTIONS
     revcomp_seq(str): obtains the complementary reverse sequence
 
 GITHUB LINK
-    https://github.com/daianna21/python_class/blob/master/pgr/DNA.py...
+    https://github.com/daianna21/python_class/blob/master/bio_analysis/DNA.py
 
 '''
 import re
