@@ -77,4 +77,8 @@ if orf and not re.search(r"[^ATGC]", dna):
 
 
 else:
+<<<<<<< HEAD
     print("There's no ORF within your sequence or your sequence is not dna.")
+=======
+    print("There's no ORF within your sequence or your sequence is not dna.")
+>>>>>>> 673391c09103b048ceb5f0a21f6b1b7a2619a303
