@@ -15,6 +15,9 @@ DESCRIPTION
 CATEGORY
      DNA sequence analysis
 
+USAGE
+    import bio_analysis.DNA
+
 FUNCTIONS
     get_sequence(str): validates the sequence given is DNA
     get orf(str): obtains the orf of the sequence
