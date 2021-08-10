@@ -4,7 +4,7 @@
 VERSION
         1.0
 
-AUTHOR Daianna
+AUTHOR DaiannaGlez
         
 
 DESCRIPTION
