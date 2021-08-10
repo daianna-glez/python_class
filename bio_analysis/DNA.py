@@ -25,7 +25,7 @@ FUNCTIONS
     atcg_content(str): determines the A,T,C ang G content of the sequence
     at_content(str): determines the AT content of the sequence
     gc_content(str): determines the GC content of the sequence
-    at_regions (str): obtains the AT rich regions of the sequence
+    at_regions(str): obtains the AT rich regions of the sequence
     revcomp_seq(str): obtains the complementary reverse sequence
 
 GITHUB LINK
@@ -77,7 +77,6 @@ def get_orf(dna):
     if orf and len(orf.group()) % 3 == 0:
         return(orf.group())
     else:
-        print("There is no ORF within your sequence.")
         return(0)
 
 
@@ -198,10 +197,8 @@ def at_regions (dna):
         at_regions.append(region.group())
     # If there are not AT rich regions, the list is empty and a message is printed
     if at_regions==[]:
-        print("No AT rich regions found")
         return(0)
     else:
-        print("AT rich regions:\n")
         return (at_regions)
 
 def revcomp_seq(dna):
