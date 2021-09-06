@@ -175,8 +175,8 @@ def gc_content(dna):
     g_count = dna.count('G')
     c_count = dna.count('C')
     # Final value
-    gc_content = (g_count + c_count) / len(dna)*100
-    return (gc_content)
+    gc_cont = (g_count + c_count) / len(dna)*100
+    return gc_cont
 
 def at_regions (dna):
     """
