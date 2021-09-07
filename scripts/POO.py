@@ -78,7 +78,7 @@ class DNA():
         rev_dna = self.seq[::-1]
         # Each nucleotide is replaced by its complementary
         com_dna = rev_dna.replace('A', 't').replace('T', 'a').replace('G', 'c').replace('C', 'g')
-        return (com_dna.upper())
+        return com_dna.upper()
 
 
 # Inheritance: subclass ORF
@@ -98,9 +98,9 @@ class ORF(DNA):
         # If there's a match (possible ORF) and the total length of the match is divided by 3
         #  the codons are obtained
         if orf and len(orf.group()) % 3 == 0:
-            return (orf.group())
+            return orf.group()
         else:
-            return (0)
+            return 0
 
     # Overriding and polimorfism: applying the revcomp_seq function in ORF class gives a different result than  applied
     # in DNA class
@@ -121,11 +121,13 @@ class ORF(DNA):
             rev_dna = orf[::-1]
             # Each nucleotide is replaced by its complementary
             com_dna = rev_dna.replace('A', 't').replace('T', 'a').replace('G', 'c').replace('C', 'g')
-            return (com_dna.upper())
-#Examples:
-seq1=ORF('GGCGCGGCATGCCCGGGTAAAGCG')
-seq2=DNA('AGTGCTGCTC')
-seq3=ORF('AGTGCTGCTC')
+            return com_dna.upper()
+
+
+# Examples:
+seq1 = ORF('GGCGCGGCATGCCCGGGTAAAGCG')
+seq2 = DNA('AGTGCTGCTC')
+seq3 = ORF('AGTGCTGCTC')
 
 print(seq1.__dict__)
 print(seq1.revcomp_seq())
