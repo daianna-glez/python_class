@@ -37,7 +37,7 @@ EXAMPLES
                 ATGCCCGGGTAA
 
 SOURCE
-    https://github.com/daianna21/python_class/blob/master/scripts/POO.py
+    https://github.com/daianna21/python_class/blob/master/tareas/POO.py
 
 
 '''
