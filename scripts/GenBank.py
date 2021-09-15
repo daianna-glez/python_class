@@ -1,54 +1,44 @@
-#Clase 2:
-import Bio
+'''
+NAME
+    GenBank.py
+VERSION
+    [1.0]
+AUTHOR
+    Daianna Gonzalez Padilla <daianna@lcg.unam.mx>
+DESCRIPTION
+    This programs takes a DNA sequence as a class and works with it through its methods and subclasses
+CATEGORY
+     GenBank files analysis
+USAGE
+    None
+ARGUMENTS
+    This program doesn't take arguments
+INPUT
+    The input of the function is the path to the file and a list of genes to find 
+OUTPUT
+    Returns a series of interest traits of the organisms
+    
+EXAMPLES
+    Example 1: gets   print(info_organism("C:/Users/hp/Downloads/virus.gb", [['L'],['G']]))
+               and returns  Organism:  Isfahan virus
+                            Date:  13-AUG-2018
+                            County:  ['Iran:Isfahan province']
+                            Isolation source:  ['Phlebotomus papatasi']
+                            Gene name:  ['G']
+                            Protein name:  ['glycoprotein']
+                            DNA:  ATGACTTCAGTCTTA ...
+                            RNA:  AUGACUUCAGUCUUA ...
+                            Protein:  MTSVL ...
+                            Gene name:  ['L']
+                            Protein name:  ['large polymerase protein']
+                            DNA:  ATGGATGAGTACTCT ...
+                            RNA:  AUGGAUGAGUACUCU ...
+                            Protein:  MDEYS ...
+SOURCE
+    https://github.com/daianna21/python_class/blob/master/tareas/GenBank.py
+'''
+
 from Bio import SeqIO
-#Ejercicio 3: Leer archivos Fastq: letter annotations es especifico de fastq
-
-mala_calidad=[]
-umbral=40
-promedio=0
-for record in SeqIO.parse("C:/Users/hp/Downloads/sample.fastq", "fastq"):
-    promedio=sum( record.letter_annotations["phred_quality"])/len(record.letter_annotations["phred_quality"])
-    if (promedio<umbral):
-        temp=(promedio,record.id)
-        mala_calidad.append(temp)
-print ('{} secuencias con promedio menor a umbral:{}\n'.format(len(mala_calidad),umbral))
-
-
-
-#GENBANK
-
-for gb_record in SeqIO.parse("C:/Users/hp/Downloads/aichi.gb", "genbank"):
-    print('ID', gb_record.id)
-    print('Secuencia', str(gb_record.seq)[0:30],'...')
-    print('Longitud', len(gb_record))
-atributos = gb_record.__dict__
-print(atributos.keys())
-
-#GenBank annotations (acceder a metadata)
-for annotation, value in gb_record.annotations.items():
-  print(annotation, value)
-
-
-#Ejercicio 4 y 5:
-for gb_record in SeqIO.parse("C:/Users/hp/Downloads/virus.gb", "genbank"):
-    print(gb_record.annotations['date'])
-    print(gb_record.annotations['organism'])
-    print(gb_record.features[0].qualifiers)
-    print(gb_record.features[0].qualifiers['country'])
-
-#Ejercicio 6:
-for gb_record in SeqIO.parse("C:/Users/hp/Downloads/virus.gb", "genbank"):
-    for feature in gb_record.features:
-        if feature.type=='CDS' and feature.qualifiers['gene']==['L']:
-            start = feature.location.nofuzzy_start
-            end = feature.location.nofuzzy_end
-            seq = gb_record.seq[start:end]
-            #print(seq)
-            #print(seq.transcribe())
-            #print(seq.translate())
-            
-
-#Tarea:
 
 def info_organism(path, genes):
     """
@@ -62,6 +52,7 @@ def info_organism(path, genes):
                     Organism: name of the organism
                     Date: date whern it was reported
                     Country: country where it was reported
+                    Isolation source: source of where it was isolated 
                     Gene name: single letter name of the gene
                     Protein names: genes products
                     DNA: the first 15 nucleotides of each gene
@@ -96,21 +87,3 @@ def info_organism(path, genes):
        
 #Example
 print(info_organism("C:/Users/hp/Downloads/virus.gb", [['L'],['G']]))
-    
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
