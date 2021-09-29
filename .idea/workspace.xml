@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc1f5b9-d2e0-4448-9457-68bc2b077a07" name="Default Changelist" comment="Se creo el programa POO.py">
-      <change afterPath="$PROJECT_DIR$/scripts/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/GenBank.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/GenBank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/POO.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/POO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Tarea 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Tarea 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/clase1.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/clase1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/clase2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/clase2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/clase3.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/clase3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tareas/GenBank.py" beforeDir="false" afterPath="$PROJECT_DIR$/tareas/GenBank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tareas/PDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/tareas/PDB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tareas/POO.py" beforeDir="false" afterPath="$PROJECT_DIR$/tareas/POO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tareas/ProteinDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/tareas/ProteinDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tareas/Proteins.py" beforeDir="false" afterPath="$PROJECT_DIR$/tareas/Proteins.py" afterDir="false" />
     </list>
     <list id="ed2a2ec7-cae6-408f-b72a-97d944ec4e6e" name="Revert &quot;Se creo el modulo DNA.py&quot;" comment="Revert &quot;Se creo el modulo DNA.py&quot;&#10;&#10;This reverts commit a995f074" />
     <option name="SHOW_DIALOG" value="false" />
