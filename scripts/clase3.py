@@ -112,6 +112,7 @@ print(atomo_1-atomo_2)
 
 
 #Ejercicio 3:
+print('Ejercicio 3:')
 print(cys_A[0])
 #Cada atomo de un residuo 
 for atom in cys_A[0]:
@@ -179,5 +180,11 @@ def ds_bond(path, chain_name):
 #Example
 bonds=ds_bond('C:/Users/hp/Downloads/1kcw.pdb','A')
 
- 
 
+
+# Otros métodos para obtener a los child
+## Iterar en las cadenas del modelo, resuduos de la cadena y atomos del residuo
+chainss=model.get_chains()
+print(*chainss) #Imprime a todos los objetos y no en lista
+residuess=chain.get_residues()
+atomss=residue.get_atoms()
