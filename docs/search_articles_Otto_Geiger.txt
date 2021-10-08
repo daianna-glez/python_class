@@ -1,0 +1,287 @@
+
+1. Biochim Biophys Acta Mol Cell Biol Lipids. 2017 Nov;1862(11):1287-1299. doi:
+10.1016/j.bbalip.2016.10.007. Epub 2016 Oct 17.
+
+Bacterial lipid diversity.
+
+López-Lara IM(1), Geiger O(2).
+
+Author information: 
+(1)Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Av.
+Universidad s/n, Apdo, Postal 565-A, Cuernavaca, Morelos CP62210, Mexico.
+(2)Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Av.
+Universidad s/n, Apdo, Postal 565-A, Cuernavaca, Morelos CP62210, Mexico.
+Electronic address: otto@ccg.unam.mx.
+
+The glycerophospholipids phosphatidylethanolamine, phosphatidylglycerol (PG), and
+cardiolipin (CL) are major structural components of bacterial membranes. In some 
+bacteria, phosphatidylcholine or phosphatidylinositol and its derivatives form
+part of the membrane. PG or CL can be modified with the amino acid residues
+lysine, alanine, or arginine. Diacylglycerol is the lipid anchor from which
+syntheses of phosphorus-free glycerolipids, such as glycolipids, sulfolipids, or 
+homoserine-derived lipids initiate. Many membrane lipids are subject to turnover 
+and some of them are recycled. Other lipids associated with the membrane include 
+isoprenoids and their derivatives such as hopanoids. Ornithine-containing lipids 
+are widespread in Bacteria but absent in Archaea and Eukarya. Some lipids are
+probably associated exclusively with the outer membrane of many bacteria, i.e.
+lipopolysaccharides, sphingolipids, or sulfonolipids. For certain specialized
+membrane functions, specific lipid structures might be required. Upon cyst
+formation in Azotobacter vinelandii, phenolic lipids are accumulated in the
+membrane. Anammox bacteria contain ladderane lipids in the membrane surrounding
+the anammoxosome organelle, presumably to impede the passage of highly toxic
+compounds generated during the anammox reaction. Considering that present
+knowledge on bacterial lipids was obtained from only a few bacterial species, we 
+are probably only starting to unravel the full scale of lipid diversity in
+bacteria. This article is part of a Special Issue entitled: Bacterial Lipids
+edited by Russell E. Bishop.
+
+Copyright © 2016 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.bbalip.2016.10.007 
+PMID: 27760387  [Indexed for MEDLINE]
+
+
+2. J Biol Chem. 2015 Jun 12;290(24):15102-11. doi: 10.1074/jbc.M115.639575. Epub
+2015 Apr 29.
+
+OlsG (Sinac_1600) Is an Ornithine Lipid N-Methyltransferase from the
+Planctomycete Singulisphaera acidiphila.
+
+Escobedo-Hinojosa WI(1), Vences-Guzmán MÁ(1), Schubotz F(2), Sandoval-Calderón
+M(1), Summons RE(2), López-Lara IM(1), Geiger O(1), Sohlenkamp C(3).
+
+Author information: 
+(1)From the Centro de Ciencias Genómicas, Universidad Nacional Autónoma de
+México, Cuernavaca, Morelos CP62210, Mexico and.
+(2)the Department of Earth, Atmospheric and Planetary Sciences, Massachusetts
+Institute of Technology, Cambridge, Massachusetts 02144.
+(3)From the Centro de Ciencias Genómicas, Universidad Nacional Autónoma de
+México, Cuernavaca, Morelos CP62210, Mexico and chsohlen@ccg.unam.mx.
+
+Ornithine lipids (OLs) are phosphorus-free membrane lipids widespread in bacteria
+but absent from archaea and eukaryotes. In addition to the unmodified OLs, a
+variety of OL derivatives hydroxylated in different structural positions has been
+reported. Recently, methylated derivatives of OLs were described in several
+planctomycetes isolated from a peat bog in Northern Russia, although the
+gene/enzyme responsible for the N-methylation of OL remained obscure. Here we
+identify and characterize the OL N-methyltransferase OlsG (Sinac_1600) from the
+planctomycete Singulisphaera acidiphila. When OlsG is co-expressed with the OL
+synthase OlsF in Escherichia coli, methylated OL derivatives are formed. An in
+vitro characterization shows that OlsG is responsible for the 3-fold methylation 
+of the terminal δ-nitrogen of OL. Methylation is dependent on the presence of the
+detergent Triton X-100 and the methyldonor S-adenosylmethionine.
+
+© 2015 by The American Society for Biochemistry and Molecular Biology, Inc.
+
+DOI: 10.1074/jbc.M115.639575 
+PMCID: PMC4463453
+PMID: 25925947  [Indexed for MEDLINE]
+
+
+3. Environ Microbiol. 2015 May;17(5):1487-96. doi: 10.1111/1462-2920.12562. Epub
+2014 Aug 7.
+
+Discovery of a bifunctional acyltransferase responsible for ornithine lipid
+synthesis in Serratia proteamaculans.
+
+Vences-Guzmán MÁ(1), Guan Z, Escobedo-Hinojosa WI, Bermúdez-Barrientos JR, Geiger
+O, Sohlenkamp C.
+
+Author information: 
+(1)Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Av.
+Universidad s/n, Apdo. Postal 565-A, Cuernavaca, Morelos, CP62210, Mexico;
+Programa de Doctorado en Ciencias Biomédicas, Universidad Nacional Autónoma de
+México, Av. Universidad s/n, Apdo. Postal 565-A, Cuernavaca, Morelos, CP62210,
+Mexico.
+
+Ornithine lipids (OLs) are phosphorus-free membrane lipids that can be formed by 
+many bacteria but that are absent from archaea and eukaryotes. A function for OLs
+in stress conditions and in host-bacteria interactions has been shown in some
+bacteria. Some bacterial species have been described that can form OLs, but lack 
+the known genes (olsBA) involved in its biosynthesis, which implied the existence
+of a second pathway. Here we describe the bifunctional protein OlsF from Serratia
+proteamaculans involved in OL formation. Expression of OlsF and its homologue
+from Flavobacterium johnsoniae in Escherichia coli causes OL formation. Deletion 
+of OlsF in S. proteamaculans caused the absence of OL formation. Homologues of
+OlsF are widely distributed among γ-, δ- and ε-Proteobacteria and in the
+Cytophaga-Flavobacterium-Bacteroidetes group of bacteria, including several
+well-studied pathogens for which the presence of OLs has not been suspected, such
+as for example Vibrio cholerae and Klebsiella pneumonia. Using genomic data, we
+predict that about 50% of bacterial species can form OLs.
+
+© 2014 Society for Applied Microbiology and John Wiley & Sons Ltd.
+
+DOI: 10.1111/1462-2920.12562 
+PMID: 25040623  [Indexed for MEDLINE]
+
+
+4. Biochim Biophys Acta. 2010 May;1801(5):593-604. doi:
+10.1016/j.bbalip.2010.02.001. Epub 2010 Feb 11.
+
+Altered lipid A structures and polymyxin hypersensitivity of Rhizobium etli
+mutants lacking the LpxE and LpxF phosphatases.
+
+Ingram BO(1), Sohlenkamp C, Geiger O, Raetz CR.
+
+Author information: 
+(1)Department of Biochemistry, Duke University Medical Center, Durham, NC 27710, 
+USA.
+
+The lipid A of Rhizobium etli, a nitrogen-fixing plant endosymbiont, displays
+significant structural differences when compared to that of Escherichia coli. An 
+especially striking feature of R. etli lipid A is that it lacks both the 1- and
+4'-phosphate groups. The 4'-phosphate moiety of the distal glucosamine unit is
+replaced with a galacturonic acid residue. The dephosphorylated proximal unit is 
+present as a mixture of the glucosamine hemiacetal and an oxidized
+2-aminogluconate derivative. Distinct lipid A phosphatases directed to the 1 or
+the 4'-positions have been identified previously in extracts of R. etli and
+Rhizobium leguminosarum. The corresponding structural genes, lpxE and lpxF,
+respectively, have also been identified. Here, we describe the isolation and
+characterization of R. etli deletion mutants in each of these phosphatase genes
+and the construction of a double phosphatase mutant. Mass spectrometry confirmed 
+that the mutant strains completely lacked the wild-type lipid A species and
+accumulated the expected phosphate-containing derivatives. Moreover,
+radiochemical analysis revealed that phosphatase activity was absent in membranes
+prepared from the mutants. Our results indicate that LpxE and LpxF are solely
+responsible for selectively dephosphorylating the lipid A molecules of R. etli.
+All the mutant strains showed an increased sensitivity to polymyxin relative to
+the wild-type. However, despite the presence of altered lipid A species
+containing one or both phosphate groups, all the phosphatase mutants formed
+nitrogen-fixing nodules on Phaseolus vulgaris. Therefore, the dephosphorylation
+of lipid A molecules in R. etli is not required for nodulation but may instead
+play a role in protecting the bacteria from cationic antimicrobial peptides or
+other immune responses of plants.
+
+Copyright (c) 2010 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.bbalip.2010.02.001 
+PMCID: PMC2839054
+PMID: 20153447  [Indexed for MEDLINE]
+
+
+5. Proc Natl Acad Sci U S A. 2010 Jan 5;107(1):302-7. doi: 10.1073/pnas.0912930107. 
+Epub 2009 Dec 14.
+
+Sinorhizobium meliloti phospholipase C required for lipid remodeling during
+phosphorus limitation.
+
+Zavaleta-Pastor M(1), Sohlenkamp C, Gao JL, Guan Z, Zaheer R, Finan TM, Raetz CR,
+López-Lara IM, Geiger O.
+
+Author information: 
+(1)Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México,
+Cuernavaca, Morelos 62251, Mexico.
+
+Rhizobia are Gram-negative soil bacteria able to establish nitrogen-fixing root
+nodules with their respective legume host plants. Besides phosphatidylglycerol,
+cardiolipin, and phosphatidylethanolamine, rhizobial membranes contain
+phosphatidylcholine (PC) as a major membrane lipid. Under phosphate-limiting
+conditions of growth, some bacteria replace their membrane phospholipids with
+lipids lacking phosphorus. In Sinorhizobium meliloti, these phosphorus-free
+lipids are sulfoquinovosyl diacylglycerol, ornithine-containing lipid, and
+diacylglyceryl trimethylhomoserine (DGTS). Pulse-chase experiments suggest that
+the zwitterionic phospholipids phosphatidylethanolamine and PC act as
+biosynthetic precursors of DGTS under phosphorus-limiting conditions. A S.
+meliloti mutant, deficient in the predicted phosphatase SMc00171 was unable to
+degrade PC or to form DGTS in a similar way as the wild type. Cell-free extracts 
+of Escherichia coli, in which SMc00171 had been expressed, convert PC to
+phosphocholine and diacylglycerol, showing that SMc00171 functions as a
+phospholipase C. Diacylglycerol , in turn, is the lipid anchor from which
+biosynthesis is initiated during the formation of the phosphorus-free membrane
+lipid DGTS. Inorganic phosphate can be liberated from phosphocholine. These data 
+suggest that, in S. meliloti under phosphate-limiting conditions, membrane
+phospholipids provide a pool for metabolizable inorganic phosphate, which can be 
+used for the synthesis of other essential phosphorus-containing biomolecules.
+This is an example of an intracellular phospholipase C in a bacterial system;
+however, the ability to degrade endogenous preexisting membrane phospholipids as 
+a source of phosphorus may be a general property of Gram-negative soil bacteria.
+
+DOI: 10.1073/pnas.0912930107 
+PMCID: PMC2806695
+PMID: 20018679  [Indexed for MEDLINE]
+
+
+6. Mol Plant Microbe Interact. 2007 Nov;20(11):1421-30.
+
+The lipid lysyl-phosphatidylglycerol is present in membranes of Rhizobium tropici
+CIAT899 and confers increased resistance to polymyxin B under acidic growth
+conditions.
+
+Sohlenkamp C(1), Galindo-Lagunas KA, Guan Z, Vinuesa P, Robinson S, Thomas-Oates 
+J, Raetz CR, Geiger O.
+
+Author information: 
+(1)Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, Av.
+Universidad s/n, Apdo. Postal 565-A, Cuernavaca, Morelos, CP62210, Mexico.
+chsohlen@ccg.unam.mx
+
+Lysyl-phosphatidylglycerol (LPG) is a well-known membrane lipid in several
+gram-positive bacteria but is almost unheard of in gram-negative bacteria. In
+Staphylococcus aureus, the gene product of mprF is responsible for LPG formation.
+Low pH-inducible genes, termed IpiA, have been identified in the gram-negative
+alpha-proteobacteria Rhizobium tropici and Sinorhizobium medicae in screens for
+acid-sensitive mutants and they encode homologs of MprF. An analysis of the
+sequenced bacterial genomes reveals that genes coding for homologs of MprF from
+S. aureus are present in several classes of organisms throughout the bacterial
+kingdom. In this study, we show that the expression of lpiA from R. tropici in
+the heterologous hosts Escherichia coli and Sinorhizobium meliloti causes
+formation of LPG. A wild-type strain of R. tropici forms LPG (about 1% of the
+total lipids) when the cells are grown in minimal medium at pH 4.5 but not when
+grown in minimal medium at neutral pH or in complex tryptone yeast (TY) medium at
+either pH. LPG biosynthesis does not occur when lpiA is deleted and is restored
+upon complementation of lpiA-deficient mutants with a functional copy of the lpiA
+gene. When grown in the low-pH medium, lpiA-deficient rhizobial mutants are over 
+four times more susceptible to the cationic peptide polymyxin B than the wild
+type.
+
+DOI: 10.1094/MPMI-20-11-1421 
+PMID: 17977153  [Indexed for MEDLINE]
+
+
+7. Mol Microbiol. 2004 Sep;53(6):1757-70.
+
+Identification of a gene required for the formation of lyso-ornithine lipid, an
+intermediate in the biosynthesis of ornithine-containing lipids.
+
+Gao JL(1), Weissenmayer B, Taylor AM, Thomas-Oates J, López-Lara IM, Geiger O.
+
+Author information: 
+(1)Centro de Investigación sobre Fijación de Nitrógeno, Universidad Nacional
+Autónoma de México, Apdo. Postal 565-A, Cuernavaca, Morelos, CP62210, Mexico.
+
+Under phosphate-limiting conditions, some bacteria replace their membrane
+phospholipids by lipids not containing any phosphorus. One of these
+phosphorus-free lipids is an ornithine-containing lipid (OL) that is widespread
+among eubacteria. In earlier work, we had identified a gene (olsA) required for
+OL biosynthesis that probably encodes an O-acyltransferase using acyl-acyl
+carrier protein (acyl-AcpP) as an acyl donor and that converts lyso-ornithine
+lipid into OL. We now report on a second gene (olsB) required for OL biosynthesis
+that is needed for the incorporation of radiolabelled ornithine into OL.
+Overexpression of OlsB in an olsA-deficient mutant of Sinorhizobium (Rhizobium)
+meliloti leads to the transient accumulation of lyso-ornithine lipid, the
+biosynthetic intermediate of OL biosynthesis. Overexpression of OlsB in
+Escherichia coli is sufficient to cause the in vivo formation of lyso-ornithine
+lipid in this organism and is the cause for a 3-hydroxyacyl-AcpP-dependent
+acyltransferase activity forming lyso-ornithine lipid from ornithine. These
+results demonstrate that OlsB is required for the first step of OL biosynthesis, 
+in which ornithine is N-acylated with a 3-hydroxy-fatty acyl residue in order to 
+obtain lyso-ornithine lipid. OL formation in a wild-type S. meliloti is increased
+upon growth under phosphate-limiting conditions. Expression of OlsB from a broad 
+host range vector leads to the constitutive formation of relatively high amounts 
+of OL (12-14% of total membrane lipids) independently of whether strains are
+grown in the presence of low or high concentrations of phosphate, suggesting that
+in S. meliloti the formation of OlsB is usually limiting for the amount of OL
+formed in this organism. Open reading frames homologous to OlsA and OlsB were
+identified in many eubacteria and although in S. meliloti the olsB and olsA gene 
+are 14 kb apart, in numerous other bacteria they form an operon.
+
+DOI: 10.1111/j.1365-2958.2004.04240.x 
+PMID: 15341653  [Indexed for MEDLINE]
+
+Artículo con ID: 27760387 citado en los artículos con IDs: ['34332123', '34093456', '33842554', '33785829', '33717018', '33430006', '33356849', '32955879', '32375407', '32320464', '32153529', '32117988', '31949186', '31110206', '30621587', '30108306', '29802183', '29046620', '28684991']
+Artículo con ID: 25925947 citado en los artículos con IDs: ['33445571', '30367006', '30154768', '29374042', '28360896', '26150465']
+Artículo con ID: 25040623 citado en los artículos con IDs: ['33750904', '33692768', '33469548', '33445571', '30367006', '30154768', '30108306', '29038461', '28522365', '28030630', '27331395', '26733994', '26175720', '26150465', '25925947', '25699032']
+Artículo con ID: 20153447 citado en los artículos con IDs: ['34361895', '31296165', '31213552', '27503996', '26644381', '25583710', '24688705', '24479701', '23652766', '23583844', '23283001', '23270491', '23002222', '22570611', '20795687']
+Artículo con ID: 20018679 citado en los artículos con IDs: ['33793933', '33692768', '33361371', '32668657', '32307636', '31420340', '31248059', '30789965', '30777812', '30154768', '29802183', '28526844', '28416708', '27911408', '27447951', '27307578', '27233093', '26565724', '26235234', '26056292', '25711932', '25657645', '24723930', '24558041', '23500459', '23457299', '23356794', '23354714', '22958119', '22773629', '22633059', '21926226', '21602377', '21239587', '21160536']
+Artículo con ID: 17977153 citado en los artículos con IDs: ['34063718', '34006869', '33495702', '32479092', '31295802', '29970182', '29760688', '29375522', '27818647', '27503996', '27485828', '27160595', '26733994', '26235234', '25927010', '25576607', '24982308', '24748493', '24723930', '23793054', '23792962', '23270491', '22958119', '22583835', '22491694', '22267511', '22262511', '22133164', '21392131', '21205018', '20161304', '19915718', '19787708', '19734140', '19216801', '19074395', '18708506', '18305156']
+Artículo con ID: 15341653 citado en los artículos con IDs: ['34500726', '33750904', '33692768', '33469548', '33445571', '30367006', '30108306', '29038461', '28522365', '27447951', '27233093', '26733994', '26175720', '26150465', '26056292', '25925947', '25404698', '24723930', '23995937', '23844246', '22958119', '22783226', '22262511', '21840974', '21609491', '21249206', '21205018', '19787708', '19096048', '18656959', '17347518', '16428413']

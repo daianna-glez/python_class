@@ -1,0 +1,47 @@
+
+1. Science. 2020 Jul 24;369(6502). pii: eaav3751. doi: 10.1126/science.aav3751.
+
+Simultaneous cross-evaluation of heterogeneous E. coli datasets via mechanistic
+simulation.
+
+Macklin DN(#)(1)(2), Ahn-Horst TA(#)(1)(2), Choi H(#)(1)(2), Ruggero NA(#)(2)(3),
+Carrera J(#)(1)(2), Mason JC(#)(1)(2), Sun G(1)(2), Agmon E(1)(2), DeFelice
+MM(1)(2), Maayan I(1)(2), Lane K(1)(2), Spangler RK(1)(2), Gillies TE(1)(2),
+Paull ML(1), Akhter S(1), Bray SR(1), Weaver DS(4), Keseler IM(4), Karp PD(4),
+Morrison JH(2), Covert MW(5)(2).
+
+Author information: 
+(1)Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.
+(2)Allen Discovery Center at Stanford University, Stanford University, Stanford, 
+CA 94305, USA.
+(3)Department of Chemical Engineering, Stanford University, Stanford, CA 94305,
+USA.
+(4)SRI International, Menlo Park, CA 94025, USA.
+(5)Department of Bioengineering, Stanford University, Stanford, CA 94305, USA.
+mcovert@stanford.edu.
+(#)Contributed equally
+
+Comment in
+    Nat Methods. 2020 Oct;17(10):958.
+
+The extensive heterogeneity of biological data poses challenges to analysis and
+interpretation. Construction of a large-scale mechanistic model of Escherichia
+coli enabled us to integrate and cross-evaluate a massive, heterogeneous dataset 
+based on measurements reported by various groups over decades. We identified
+inconsistencies with functional consequences across the data, including that the 
+total output of the ribosomes and RNA polymerases described by data are not
+sufficient for a cell to reproduce measured doubling times, that measured
+metabolic parameters are neither fully compatible with each other nor with
+overall growth, and that essential proteins are absent during the cell cycle-and 
+the cell is robust to this absence. Finally, considering these data as a whole
+leads to successful predictions of new experimental outcomes, in this case
+protein half-lives.
+
+Copyright © 2020 The Authors, some rights reserved; exclusive licensee American
+Association for the Advancement of Science. No claim to original U.S. Government 
+Works.
+
+DOI: 10.1126/science.aav3751 
+PMCID: PMC7990026
+PMID: 32703847  [Indexed for MEDLINE]
+
