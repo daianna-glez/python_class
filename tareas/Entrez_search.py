@@ -110,7 +110,7 @@ def search_articles (data_base):
     else:
         output_file.write('Results:\n')
         output_file.write(result["Count"])
-        output_file.write(" article(s) found, whose ID(s) (for the first 20) are :")
+        output_file.write(" article(s) found, whose ID(s) (for the first 20) are : ")
         output_file.write( str(result["IdList"]))
         
     output_file.close()
