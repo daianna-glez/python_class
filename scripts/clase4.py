@@ -147,5 +147,61 @@ def search_db (data_base):
 search_db(data_base="pubmed")
 
 
+# Esearch busca los IDs y al meterlos en efetch da cosas de esos IDs
+# EGquery Muestra en cuales de las bases de datos podemos encontrar información de nuestra búsqueda.
+
+termino = "(Aedes[Title] OR Aedes[All Fields])AND((RNA-Seq[Title] OR transcriptomic[Title]) OR (transcriptome[Title] OR sequencing[Title]))"
+handle = Entrez.egquery(term=termino)
+record = Entrez.read(handle)
+for row in record["eGQueryResult"]:
+    print(row["DbName"], row["Count"])
+
+
+#Espell: Ayuda a corregir búsqueda con sugerencias de ortografía:
+handle = Entrez.espell(term="biopythooon")
+record = Entrez.read(handle)
+record["Query"] # lo que añadimos
+record["CorrectedQuery"]  # la sugerencia
+
+#Esummary:
+handle = Entrez.esummary(db="taxonomy", id="9913,30521")
+record = Entrez.read(handle)
+len(record)
+record[0].keys()
+record[0]["Id"]
+
+#Efetch: Regresa records en formato especificado (tipo y modo). En esta tabla podemos ver las bases de datos en las que Efetch puede
+# interactuar y sus valores para retmode y rettype
+
+from Bio import Entrez, SeqIO  
+# db = "nuccore" tambien es valido
+handle = Entrez.efetch(db="nucleotide", id="HE805982", rettype="gb", retmode="text")
+# leemos archivo genebank
+record = SeqIO.read(handle, "genbank")
+handle.close()
+print(record)  # imprimimos archivo
+
+
+# Guardar info en un archivo
+filename = "HE805982.gb"  #nombre del archivo a generar
+with Entrez.efetch(db="nucleotide",id="HE805982",rettype="gb", retmode="text") as file:
+    with open(filename, "w") as handle:
+        handle.write(file.read())  #escribimos archivo
+# parseamos archivo con SeqIO, indiicamos que es tipo genbank
+record = SeqIO.read("HE805982.gb", "genbank") 
+record
+
+
+
+# Archivos fasta con handle.read
+out_handle = open("files/prueba.fasta", "w")
+fetch_handle = Entrez.efetch(db="nucleotide", id="1919569438, 1919569357, 1251949171",
+                            rettype="fasta", retmode="text")
+data = fetch_handle.read()  #usar handle.read()
+fetch_handle.close() #cerrar handle
+out_handle.write(data) #escribir archivo
+out_handle.close() #cerrar archivo
+
+
 
 
