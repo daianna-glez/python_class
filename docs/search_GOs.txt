@@ -1,0 +1,1129 @@
+ID: A0A0K2RVI7_9BETC
+Protein name: Envelope small membrane protein 
+GO:0046760, meaning: P:viral budding from Golgi membrane
+Organism: Equine coronavirus.
+SUBCELLULAR LOCATION: Host Golgi apparatus membrane 
+Abstracts of references: 
+No references found.
+Prosite documentation: 
+No prosite IDs found.
+
+
+
+
+
+ID: A8R4D4_9BETC
+Protein name: Envelope small membrane protein 
+GO:0046760, meaning: P:viral budding from Golgi membrane
+Organism: Equine coronavirus.
+SUBCELLULAR LOCATION: Host Golgi apparatus membrane 
+Abstracts of references: 
+
+1. Arch Virol. 2015 Nov;160(11):2903-6. doi: 10.1007/s00705-015-2565-1. Epub 2015
+Aug 14.
+
+Complete genome analysis of equine coronavirus isolated in Japan.
+
+Nemoto M(1), Oue Y(2), Murakami S(3), Kanno T(4), Bannai H(5), Tsujimura K(5),
+Yamanaka T(5), Kondo T(5).
+
+Author information: 
+(1)Epizootic Research Center, Equine Research Institute, Japan Racing
+Association, 1400-4 Shiba, Shimotsuke, Tochigi, 329-0412, Japan.
+nemoto_manabu@equinst.go.jp.
+(2)Hokkaido Kushiro Livestock Hygiene Service Center, 127-1 Otanoshike, Kushiro, 
+Hokkaido, 084-0917, Japan.
+(3)Thermo Fisher Scientific, Life technologies Japan Ltd., Sumitomo Fudosan Mita 
+Twin Bldg., 4-2-8 Shibaura, Minato-ku, Tokyo, 108-0023, Japan.
+(4)Dairy Hygiene Research Division, Hokkaido Research Station, National Institute
+of Animal Health, 4 Hitsujigaoka, Toyohira, Sapporo, Hokkaido, 062-0045, Japan.
+(5)Epizootic Research Center, Equine Research Institute, Japan Racing
+Association, 1400-4 Shiba, Shimotsuke, Tochigi, 329-0412, Japan.
+
+Equine coronavirus has been responsible for several outbreaks of disease in the
+United States and Japan. Only one complete genome sequence (NC99 isolated in the 
+US) had been reported for this pathogenic RNA virus. Here, we report the complete
+genome sequences of three equine coronaviruses isolated in 2009 and 2012 in
+Japan. The genome sequences of Tokachi09, Obihiro12-1 and Obihiro12-2 were
+30,782, 30,916 and 30,916 nucleotides in length, respectively, excluding the
+3'-poly (A) tails. All three isolates were genetically similar to NC99
+(98.2-98.7%), but deletions and insertions were observed in the genes nsp3 of
+ORF1a, NS2 and p4.7.
+
+DOI: 10.1007/s00705-015-2565-1 
+PMCID: PMC7086706
+PMID: 26271151  [Indexed for MEDLINE]
+
+
+Prosite documentation: 
+No prosite IDs found.
+
+
+
+
+
+ID: POLG_YEFV1
+Protein name: Genome polyprotein
+GO:0046762, meaning: P:viral budding from endoplasmic reticulum membrane
+Organism: Yellow fever virus (strain 17D vaccine) (YFV).
+SUBCELLULAR LOCATION: [Capsid protein C]: Virion 
+SUBCELLULAR LOCATION: [Peptide pr]: Secreted 
+SUBCELLULAR LOCATION: [Small envelope protein M]: Virion membrane 
+SUBCELLULAR LOCATION: [Envelope protein E]: Virion membrane 
+SUBCELLULAR LOCATION: [Non-structural protein 1]: Secreted 
+SUBCELLULAR LOCATION: [Non-structural protein 2A]: Host endoplasmic reticulum membrane 
+SUBCELLULAR LOCATION: [Serine protease subunit NS2B]: Host endoplasmic reticulum membrane; Multi-pass membrane protein 
+SUBCELLULAR LOCATION: [Serine protease NS3]: Host endoplasmic reticulum membrane 
+SUBCELLULAR LOCATION: [Non-structural protein 4A]: Host endoplasmic reticulum membrane 
+SUBCELLULAR LOCATION: [Non-structural protein 4B]: Host endoplasmic reticulum membrane 
+SUBCELLULAR LOCATION: [RNA-directed RNA polymerase NS5]: Host endoplasmic reticulum membrane; Peripheral membrane protein; Cytoplasmic side. Host nucleus 
+Abstracts of references: 
+
+1. Virus Res. 1995 Jan;35(1):35-41.
+
+Complete nucleotide sequence of yellow fever virus vaccine strains 17DD and
+17D-213.
+
+dos Santos CN(1), Post PR, Carvalho R, Ferreira II, Rice CM, Galler R.
+
+Author information: 
+(1)Fundação Oswaldo Cruz, Departamento de Bioquimica e Biologia Molecular, Rio de
+Janeiro, Brazil.
+
+The complete nucleotide sequence of the genome from two yellow fever (YF) virus
+vaccine strains, 17DD and 17D-213, has been determined. Comparison of these
+sequences with those of other YF viruses including the parental virulent Asibi
+strain allowed the identification of 48 nucleotide sequence differences which are
+common to all 17D substrains. This is a significant reduction from the 67
+nucleotide changes originally reported as being 17D-specific and potentially
+related to viral attenuation. The 48 changes are scattered throughout the genome,
+26 of which are silent and 22 led to amino acid substitutions. These 22 changes
+are bona fide candidates to test by mutating the infectious YF cDNA to
+investigate their role in viral attenuation.
+
+DOI: 10.1016/0168-1702(94)00076-o 
+PMID: 7754673  [Indexed for MEDLINE]
+
+
+2. Virus Res. 1998 May;55(1):93-9.
+
+Yellow fever 17D vaccine virus isolated from healthy vaccinees accumulates very
+few mutations.
+
+Xie H(1), Cass AR, Barrett AD.
+
+Author information: 
+(1)Department of Pathology, University of Texas Medical Branch, Galveston
+77555-0605, USA.
+
+The live attenuated yellow fever (YF) vaccine strain 17D is one of the safest
+vaccines in use today with only 22 cases of reversion to virulence documented
+from over 300 million doses administered. We have isolated virus in cell culture 
+from sera of six volunteers who received 17D vaccine and found that very few
+nucleotide mutations were detected in the consensus sequence of the entire genome
+of each of the serum viruses. Moreover, most of these mutations accumulated in
+the non-structural protein genes, especially the NS5 protein gene. Although no
+nucleotide change was identified in the structural protein genes of any of these 
+six serum viruses, minor sequence heterogeneity existed in the serum virus
+population. Our results indicate that 17D vaccine virus accumulates mutations at 
+a very low frequency and may explain in part the excellent safety record of 17D
+vaccine.
+
+DOI: 10.1016/s0168-1702(98)00036-7 
+PMID: 9712515  [Indexed for MEDLINE]
+
+
+3. Nucleic Acids Res. 1989 May 25;17(10):3989.
+
+Nucleotide sequence comparison of the genome of two 17D-204 yellow fever
+vaccines.
+
+Dupuy A(1), Despres P, Cahour A, Girard M, Bouloy M.
+
+Author information: 
+(1)Unit of Molecular Virology, CNRS UA 545, Institut Pasteur, Paris, France.
+
+DOI: 10.1093/nar/17.10.3989 
+PMCID: PMC317887
+PMID: 2734112  [Indexed for MEDLINE]
+
+
+Prosite documentation: 
+Prodoc ID: PDOC51527
+Documentation: 
+*************************************************************
+* Flavivirus NS2B and NS3 protease (NS3pro) domain profiles *
+*************************************************************
+
+Pathogenic members  of  the  flavivirus family [E1], including West Nile Virus
+(WNV) and Dengue Virus (DV), are growing global threats for which there are no
+specific treatments.  The  genome  encodes  three structural proteins found in
+the mature virion (C, prM, and E) and seven "nonstructural" (i.e., not part of
+the virion architecture) proteins (NS1, NS2A, NS2B, NS3, NS4A, NS4B, and NS5).
+Full-length NS3  is  a  bifunctional  protein.  The  N-terminal  175  residues
+comprise a  chymotrypsin-like protease, "NS3pro", while the C-terminal portion
+is a   helicase  ("NS3hel").  The  NS2B  protein,  which  is  located  in  the
+polypeptide precursor  immediately upstream of the NS3pro domain, functions as
+the cofactor  for  NS3pro.  A  35-48  residue  central portion is required for
+protease activity  in  vitro,  while  N-  and  C-terminal flanking hydrophobic
+regions are predicted to anchor the NS2B-NS3 complex into the host endoplasmic
+reticulum  membrane. The  two component flaviviral enzyme NS2B-NS3 cleaves the
+viral polyprotein  precursor  within the host cell, a process that is required
+for viral  replication  [1,2,3].  The  NS3pro domain forms peptidase family S7
+(flavivirin family) of clan PA [E2].
+
+The NS3pro  has  a  classical  serine  protease catalytic triad (His, Asp, and
+Ser). The  enzymatic  activity  of  NS3pro is enhanced by interacting with the
+central 40  amino acid of NS2B which acts as an essential cofactor. The NS3pro
+domain has  an  overall structure of two barrels made of six beta sheets each,
+with the  active  site  located  in  the  cleft  between the barrels. The NS2B
+hydrophilic core  cofactor  contributes one of the N-terminal beta sheets (see
+<PDB:3L6P>) [1,2,3].
+
+The profiles we developed cover the entire flavivirus NS2B and NS3pro domains.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Last update: March 2011 / First entry.
+
+
+
+Prodoc ID: PDOC51192
+Documentation: 
+**************************************************
+* Superfamilies 1 and 2 helicase domain profiles *
+**************************************************
+
+Helicases  have  been  classified in 5 superfamilies (SF1-SF5) [1]. All of the
+proteins  bind ATP and, consequently, all of them carry the classical Walker A
+(phosphate-binding   loop   or   P-loop)   (see   <PDOC00017>)  and  Walker  B
+(Mg2+-binding  aspartic acid) motifs [1]. For the two largest groups, commonly
+referred  to  as  SF1 and SF2, a total of seven characteristic motifs has been
+identified  [2].  These  two superfamilies encompass a large number of DNA and
+RNA helicases from archaea, eubacteria, eukaryotes and viruses that seem to be
+active  as  monomers  or  dimers.  RNA  and DNA helicases are considered to be
+enzymes  that  catalyze  the separation of double-stranded nucleic acids in an
+energy-dependent manner [3].
+
+The various structures of SF1 and SF2 helicases present a common core with two
+alpha-beta   RecA-like   domains  (see  for  example  <PDB:1FUU>)  [3,4].  The
+structural  homology  with  the  RecA  recombination  protein  covers the five
+contiguous  parallel  beta  strands and the tandem alpha helices. ATP binds to
+the  amino proximal alpha-beta domain, where the Walker A (motif I) and Walker
+B (motif  II) are found. The N-terminal domain also contains motif III (S-A-T)
+which  was  proposed to participate in linking ATPase and helicase activities.
+The  carboxy-terminal  alpha-beta  domain  is structurally very similar to the
+proximal  one even though it is bereft of an ATP-binding site, suggesting that
+it may have originally arisen through gene duplication of the first one.
+
+Some members of helicase superfamilies 1 and 2 are listed below:
+
+ - DEAD-box  RNA  helicases  (see  <PDOC00039>).  The  prototype  of  DEAD-box
+   proteins  is  the translation initiation factor eIF4A. The eIF4A protein is
+   an  RNA-dependent  ATPase  which  functions  together  with eIF4B as an RNA
+   helicases [5].
+ - DEAH-box  RNA  helicases (see <PDOC00039>). Mainly pre-mRNA-splicing factor
+   ATP-dependent RNA helicases [5].
+ - Eukaryotic   DNA  repair  helicase RAD3/ERCC-2, an ATP-dependent 5'-3'  DNA
+   helicase involved in nucleotide excision repair of UV-damaged DNA.
+ - Eukaryotic  TFIIH  basal transcription factor complex helicase XPB subunit.
+   An  ATP-dependent 3'-5' DNA helicase which is a component of the core-TFIIH
+   basal transcription factor, involved in nucleotide excision repair (NER) of
+   DNA  and, when complexed to CAK, in RNA transcription by RNA polymerase II.
+   It  acts  by  opening DNA either around the RNA transcription start site or
+   the DNA.
+ - Eukaryotic  ATP-dependent  DNA  helicase  Q. A DNA helicase that may play a
+   role  in  the  repair  of DNA that is damaged by ultraviolet light or other
+   mutagens.
+ - Eukaryotic  ATP-dependent  helicase  SNF2/RAD54.  A  group of ATP-dependent
+   remodelling factors frequently found associated with histone deacetylases.
+ - Bacterial  and  eukaryotic antiviral SKI2-like helicase. SKI2 has a role in
+   the  3'-mRNA  degradation  pathway. It represses dsRNA virus propagation by
+   specifically  blocking  translation of viral mRNAs, perhaps recognizing the
+   absence of CAP or poly(A).
+ - Bacterial  DNA-damage-inducible  protein  G  (DinG).  A  probable  helicase
+   involved in DNA repair and perhaps also replication.
+ - Bacterial  primosomal  protein  N'  (PriA).  PriA  protein  is one of seven
+   proteins  that  make  up  the restart primosome, an apparatus that promotes
+   assembly   of   replisomes   at  recombination  intermediates  and  stalled
+   replication forks.
+ - Bacterial  ATP-dependent  DNA  helicase  recG.  It  has  a critical role in
+   recombination   and   DNA   repair.  It  helps  process  Holliday  junction
+   intermediates  to  mature products by catalyzing branch migration. It has a
+   DNA  unwinding  activity  characteristic  of a DNA helicase with a 3' to 5'
+   polarity.
+ - ssRNA positive-strand  flaviviruses and potyviruses RNA helicase.
+ - dsDNA viruses early transcription factor 70 kDa subunit.
+ - dsDNA  viruses  nucleoside  triphosphatase I (NPH I) protein. It serves two
+   roles   in  transcription;  it  acts  in  concert  with  viral  termination
+   factor/capping enzyme to catalyze release of UUUUUNU-containing nascent RNA
+   from  the  elongation  complex,  and  it  acts  by  itself  as a polymerase
+   elongation factor to facilitate readthrough of intrinsic pause sites.
+ - Poxviruses  transcript  release  DNA  helicase.  It  prevents virus-induced
+   breakdown of RNA. It acts as a negative transcription elongation factor. It
+   is involved in an ATP-dependent manner in release of nascent RNA.
+
+To  recognize  helicase  Superfamilies 1 and 2 we have developed two profiles.
+The  first one recognizes all classical SF1 and SF2 helicases except bacterial
+DinG protein  and eukaryotic Rad3 which belong to the same subfamily and which
+differ  from  other  SF1-SF2 helicases by the presence of a large insert after
+the Walker A [6]. Our second profile recognizes specifically this subfamily.
+
+-Sequences known to belong to this class detected by the first profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the second profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the third profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Note: UvrD (see <PDOC51198>) also belong to SF1 but is not picked-up by these
+ profiles.
+-Note:  secA  is  a  bacterial protein important for protein export which also
+ contains  the seven motifs characteristic of SF1 and SF2. We also developed a
+ profile specific for this family (see <PDOC01016>).
+
+-Last update: April 2006 / First entry.
+
+
+
+Prodoc ID: PDOC50507
+Documentation: 
+*********************************************************
+* RNA-directed RNA polymerase catalytic domain profiles *
+*********************************************************
+
+RNA-directed  RNA  polymerase  (RdRp)  (EC  2.7.7.48)  is an essential protein
+encoded  in the genomes of all RNA containing viruses with no DNA stage [1,2].
+It  catalyses  synthesis  of  the  RNA  strand  complementary  to  a given RNA
+template,  but the precise molecular mechanism remains unclear. The postulated
+RNA replication process is a two-step mechanism. First, the initiation step of
+RNA  synthesis  begins at or near the 3' end of the RNA template by means of a
+primer-independent (de novo) mechanism. The de novo initiation consists in the
+addition  of  a  nucleotide  tri-phosphate  (NTP)  to  the  3'-OH of the first
+initiating   NTP.  During  the  following  so-called  elongation  phase,  this
+nucleotidyl transfer reaction is repeated with subsequent NTPs to generate the
+complementary RNA product [3].
+
+All  the  RNA-directed  RNA  polymerases,  and  many DNA-directed polymerases,
+employ a fold whose organization has been likened to the shape of a right hand
+with  three  subdomains  termed  fingers, palm and thumb (see <PDB:1RDR>) [4].
+Only  the  palm subdomain, composed of a four-stranded antiparallel beta-sheet
+with two alpha-helices, is well conserved among all of these enzymes. In RdRp,
+the palm subdomain comprises three well conserved motifs (A, B and C). Motif A
+(D-x(4,5)-D)  and  motif C (GDD) are spatially juxtaposed; the Asp residues of
+these  motifs  are implied in the binding of Mg2+ and/or Mn2+. The Asn residue
+of  motif  B  is  involved  in  selection of ribonucleoside triphosphates over
+dNTPs and thus determines whether RNA is synthesized rather than DNA [5].
+
+RNA  viruses with no DNA stage can be placed in three main categories based on
+their replication and coding strategies: positive single-stranded RNA (ssRNA),
+negative   ssRNA   and  double-stranded  RNA  (dsRNA)  viruses.  To  recognize
+RNA-directed RNA polymerase we have developed six profiles that roughly follow
+this  classification  (see below). They are all directed against the catalytic
+region (palm subdomain).
+
+-Sequences known to belong to this class detected by the first profile:    ALL
+ positive   ssRNA   viruses,   two   small  families  of  dsRNA  viruses:  the
+ Partitiviridae  and  the  Totoviridae  and  some  eukaryotic RdRps.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the second profile:   ALL
+ bacteriophages RdRps.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the third profile:    ALL
+ RdRps of the Reoviridae family of dsRNA viruses.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the fourth profile:   ALL
+ RdRps of the Birnaviridae family of dsRNA viruses.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the fifth profile:    ALL
+ RdRps  of negative ssRNA viruses with segmented genomes except the ophiovirus
+ and the varicovirus.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the sixth profile:    ALL
+ RdRps   of  negative  ssRNA  viruses  with  non-segmented  genomes  plus  the
+ ophiovirus and the varicovirus.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Note: The GDD motif lacks in Birnaviridae RNA-directed RNA polymerases [6].
+
+-Last update: November 2005 / First entry.
+
+
+
+Prodoc ID: PDOC51555
+Documentation: 
+************************************************************
+* Class I SAM-dependent methyltransferases family profiles *
+************************************************************
+
+Methyltransferases (MTs) (EC 2.1.1.-) constitute an important class of enzymes
+present  in every life form. They transfer a methyl group most frequently from
+S-adenosyl  L-methionine  (SAM  or  AdoMet) to a nucleophilic acceptor such as
+nitrogen,  oxygen,  sulfur  or  carbon  leading  to  S-adenosyl-L-homocysteine
+(AdoHcy)  and  a  methylated  molecule.  The substrates that are methylated by
+these  enzymes  cover  virtually every kind of biomolecules ranging from small
+molecules, to  lipids,  proteins and nucleic acids. MTs are therefore involved
+in many   essential   cellular   processes   including   biosynthesis,  signal
+transduction, protein repair, chromatin regulation and gene silencing [1,2,3].
+More than 230 different enzymatic reactions of MTs have been described so far,
+of which more than 220 use SAM as the methyl donor [E1]. A review published in
+2003 [2]  divides  all  MTs  into  5  classes  based on the structure of their
+catalytic domain (fold):
+
+ - class I:    Rossmann-like                    alpha/beta
+ - class II:   TIM beta/alpha-barrel            alpha/beta
+ - class III:  tetrapyrrole methylase           alpha/beta
+ - class IV:   SPOUT                            alpha/beta     see <PDOC51604>
+ - class V:    SET domain                       all beta       see <PDOC51565>
+
+A  more  recent  paper  [3]  based  on a study of the Saccharomyces cerevisiae
+methyltransferome argues for four more folds:
+
+ - class VI:   transmembrane                    all alpha      see <PDOC51598>
+ - class VII:  DNA/RNA-binding 3-helical bundle all alpha
+ - class VIII: SSo0622-like                     alpha+beta
+ - class IX:   thymidylate synthetase           alpha+beta
+
+The vast  majority  of  MTs  belong  to the Rossmann-like fold (Class I) which
+consists in  a  seven-stranded  beta sheet adjoined by alpha helices. The beta
+sheet contains a central topological switch-point resulting in a deep cleft in
+which SAM binds. Class I MTs display two conserved positions, the first one is
+a GxGxG  motif  (or  at least a GxG motif) at the end of the first beta strand
+which is characteristic of a nucleotide-binding site and is hence used to bind
+the adenosyl  part  of SAM, the second conserved position is an acidic residue
+at the  end  of  the  second  beta strand that forms one hydrogen bond to each
+hydroxyl of  the  SAM  ribose  part.  The core of these enzymes is composed by
+about 150  amino acids that show very strong spatial conservation. Catechol O-
+MT (EC  2.1.1.6)  is  the canonical Class I MT considering that it consists in
+the exact consensus structural core with no extra domain (see <PDB:1VID>) [2].
+
+Some enzymatic activities known to belong to the Class I superfamily:
+
+Profiles directed against domains:
+
+ - C5-MTs  (see  <PDOC00089>):  DNA  (cytosine-5-)-MT  (EC  2.1.1.37) and tRNA
+   (cytosine(38)-C(5))-MT (EC 2.1.1.204).
+ - Domains rearranged MTs (DRMs) (EC=2.1.1.37).
+ - Dot 1 MT (EC 2.1.1.43) (see <PDOC51569>).
+ - Eukaryotic and dsDNA viruses mRNA cap 0 MT (EC 2.1.1.56) (see <PDOC51562>).
+ - Flavivirus mRNA cap 0 and cap 1 MT (EC 2.1.1.56 and EC 2.1.1.57) [4,5,6].
+ - Mononegavirus  L  protein 2'-O-ribose MT domain, involved in the capping of
+   viral mRNAs (cap 1 structure) [7,8].
+ - Protein    arginine   N-MTs   (PRMTs)   including   histone-arginine   N-MT
+   (EC 2.1.1.125) and [Myelin basic protein]-arginine N-MT (EC 2.1.1.126).
+ - RMT2   MTs:   arginine  N-MT  2  (EC  2.1.1.-)  and  guanidinoacetate  N-MT
+   (EC 2.1.1.2) [9,10].
+ - TRM1 tRNA (guanine(26)-N(2))-diMT (EC 2.1.1.216).
+ - TRM5/TYW2 tRNA (guanine(37)-N(1))-MT (EC 2.1.1.228).
+ - ERG6/SMT  MTs: methylate sterol and triterpene.
+ - RsmB/NOP MTs: RNA (cytosine-5-)-MTs.
+ - RNA   5-methyluridine  (m(5)U)  MTs  (EC  2.1.1.35,  EC  2.1.1.189  and  EC
+   2.1.1.190).
+ - RrmJ mRNA (nucleoside-2'-O-)-MT (EC 2.1.1.57).
+ - Adrift ribose 2'-O-MT (EC 2.1.1.-).
+ - TrmB tRNA (guanine(46)-N(7))-MT (EC 2.1.1.33).
+
+Profiles directed against whole-length proteins:
+
+ - Glycine   and  glycine/sarcosine  N-methyltransferase  (EC  2.1.1.20 and EC
+   2.1.1.156).
+ - mRNA  (2'-O-methyladenosine-N(6)-)-MT  (EC  2.1.1.62) and other MT-A70-like
+   MTs.
+ - Phosphoethanolamine N-MT (PEAMT) (EC 2.1.1.103).
+ - dsRNA viruses mRNA cap 0 MT (EC 2.1.1.56).
+ - Poxvirus/kinetoplastid cap ribose 2'-O-MT.
+ - NNT1 nicotinamide N-MT (EC 2.1.1.1).
+ - NNMT/PNMT/TEMT  MTs  (see  <PDOC00844>):  nicotinamide  N-MT  (EC 2.1.1.1),
+   phenylethanolamine N-MT (EC 2.1.1.28) and amine N-MT (EC 2.1.1.49).
+ - HNMT histamine N-MT (EC 2.1.1.8).
+ - Putrescine N-MT (EC 2.1.1.53).
+ - CLNMT calmodulin-lysine N-MT (EC 2.1.1.60).
+ - TRM61   tRNA   (adenine(57)-N(1)/adenine(58)-N(1)  or  adenine(58)-N(1))-MT
+   (EC 2.1.1.219 or EC 2.1.1.220).
+ - UbiE 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase (EC 2.1.1.201).
+ - Tocopherol  O-MT  (EC  2.1.1.95).  The  Synechocystis  homologue  has not a
+   tocopherol MT but a MPBQ/MSBQ activity (EC 2.1.1.295) (see below) [11,12].
+ - 2-methyl-6-phytyl-1,4-benzoquinone/2-methyl-6-solanyl-1,4-benzoquinone   MT
+   (MPBQ/MSBQ MT) (EC 2.1.1.295) [12].
+ - Cation-dependent  O-MT  includes caffeoyl-CoA O-MT (CCoAOMT) (EC 2.1.1.104)
+   that is  involved  in plant defense, catechol O-MT (COMT) (EC 2.1.1.6) that
+   plays an  important  role  in  the  central nervous system in the mammalian
+   organism, and a family of bacterial OMTs that may be involved in antibiotic
+   production.
+ - Cation-independent  O-MT  includes  caffeic  acid  OMTs  that  are  able to
+   methylate the  monolignol  precursors  caffeic  acid (EC 2.1.1.68), caffeyl
+   aldehyde, or   caffeyl   alcohol,  acetylserotonin  OMT  (EC  2.1.1.4)  and
+   acetylserotonin OMT-like (EC 2.1.1.-).
+ - Magnesium protoporphyrin IX MT (EC 2.1.1.11).
+ - rRNA adenine N(6)-MT and adenine N(6), N(6)-diMT.
+ - TRM11   MTs:   tRNA   (guanine(10)-N2)-MT   (EC   2.1.1.214)  and  homologs
+   (EC 2.1.1.-).
+ - Methionine S-MT (EC 2.1.1.12).
+ - TPMT  MTs:  thiopurine  S-MT  (EC  2.1.1.67),  thiol  S-MT (EC 2.1.1.9) and
+   thiocyanate MT (EC 2.1.1.n4).
+
+The profiles we developed cover the entire domains or families.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Last update: October 2013 / Profile added and text revised.
+
+
+
+
+
+
+ID: POLG_DEN1W
+Protein name: Genome polyprotein
+GO:0046762, meaning: P:viral budding from endoplasmic reticulum membrane
+Organism: Dengue virus type 1 (strain Nauru/West Pac/1974) (DENV-1).
+SUBCELLULAR LOCATION: [Capsid protein C]: Virion. Host nucleus 
+SUBCELLULAR LOCATION: [Peptide pr]: Secreted 
+SUBCELLULAR LOCATION: [Small envelope protein M]: Virion membrane 
+SUBCELLULAR LOCATION: [Envelope protein E]: Virion membrane 
+SUBCELLULAR LOCATION: [Non-structural protein 1]: Secreted 
+SUBCELLULAR LOCATION: [Non-structural protein 2A]: Host endoplasmic reticulum membrane 
+SUBCELLULAR LOCATION: [Serine protease subunit NS2B]: Host endoplasmic reticulum membrane; Multi-pass membrane protein 
+SUBCELLULAR LOCATION: [Serine protease NS3]: Host endoplasmic reticulum membrane 
+SUBCELLULAR LOCATION: [Non-structural protein 4A]: Host endoplasmic reticulum membrane 
+SUBCELLULAR LOCATION: [Non-structural protein 4B]: Host endoplasmic reticulum membrane 
+SUBCELLULAR LOCATION: [RNA-directed RNA polymerase NS5]: Host endoplasmic reticulum membrane 
+Abstracts of references: 
+
+1. Virology. 1987 Nov;161(1):262-7.
+
+Sequence of the dengue-1 virus genome in the region encoding the three structural
+proteins and the major nonstructural protein NS1.
+
+Mason PW(1), McAda PC, Mason TL, Fournier MJ.
+
+Author information: 
+(1)Department of Biochemistry, University of Massachusetts, Amherst 01003.
+
+Sequence results are presented for a 3745-nucleotide region at the 5' end of the 
+dengue type-1 virus (DEN-1) genome. The strain characterized is a Western Pacific
+isolate from Nauru Island. The sequenced region contains the beginning of a
+continuous open reading frame which specifies the capsid (C), membrane (M), and
+envelope (E) structural proteins and the nonstructural protein NS1. The sequences
+are compared with corresponding segments for seven other flaviviruses, including 
+two of the three remaining dengue serotypes, DEN-2 and DEN-4. The results show
+the DEN-1 genome size and organization to be similar to those of other
+characterized flaviviruses and that major features of the individual proteins are
+conserved. It is of special interest that comparisons of the E glycoprotein
+sequences between the dengue serotypes (DEN-1, -2, -4) reveal only moderately
+greater sequence relatedness (63-68%) than occurs in comparisons of DEN-1 with
+five other flaviviruses (46-54%). For the other structural proteins, C and M, the
+relatedness values are 59-74% for comparisons between DEN-1 and the other dengue 
+serotypes and 31-45% for comparisons between DEN-1 and the five other
+flaviviruses.
+
+DOI: 10.1016/0042-6822(87)90196-6 
+PMID: 3672932  [Indexed for MEDLINE]
+
+
+2. J Gen Virol. 1989 Jul;70 ( Pt 7):1701-12.
+
+Genetic relatedness among structural protein genes of dengue 1 virus strains.
+
+Chu MC(1), O'Rourke EJ, Trent DW.
+
+Author information: 
+(1)Division of Vector-Borne Viral Diseases, Centers for Disease Control, Fort
+Collins, Colorado 80522.
+
+The structural protein-coding genomic regions of dengue virus type 1 (DEN-1)
+strains representing three distinct topotypes (Thailand, Philippines and
+Caribbean) were cloned and sequenced. In addition the envelope (E) nucleotide
+sequences of two recent Caribbean topotype DEN-1 isolates were obtained by direct
+RNA sequencing. The nucleotide sequence of the DEN-1 viruses in the structural
+gene region was found to be highly conserved with greater than 95% nucleotide
+sequence homology and with less than 4% change in the amino acid sequence.
+Although there was a less than 2% change in the nucleotide sequence of DEN-1 E
+proteins, strains could be differentiated by the clusters of nucleotide changes. 
+Furthermore, the deduced amino acid changes in the E protein were clustered
+primarily within the proposed immunologically reactive regions. Genomic
+nucleotide sequence comparisons did not define geographical or virulence markers 
+but located unique clusters of nucleotide/amino acid changes for each of the
+three topotypes of DEN-1 viruses examined.
+
+DOI: 10.1099/0022-1317-70-7-1701 
+PMID: 2738579  [Indexed for MEDLINE]
+
+
+3. Virology. 1988 Jan;162(1):187-96.
+
+Evidence that the mature form of the flavivirus nonstructural protein NS1 is a
+dimer.
+
+Winkler G(1), Randolph VB, Cleaves GR, Ryan TE, Stollar V.
+
+Author information: 
+(1)Department of Molecular Genetics and Microbiology, Robert Wood Johnson Medical
+School, University of Medicine and Dentistry of New Jersey, Piscataway 08854.
+
+Evidence is presented which indicates that the dengue-2 virus nonstructural
+protein NS1 (soluble complement fixing antigen) exists in infected BHK and
+mosquito cell cultures as part of a stable oligomer. Identification of the
+dissociation products of the isolated oligomer and comparison of the number of
+N-linked glycans in native and denatured NS1 is consistent with the idea that the
+high-molecular-weight form of NS1 is a homodimer. By analyzing lysates of BHK
+cells infected with St. Louis encephalitis virus or Powassan virus and proteins
+from dengue-2 virus-infected mouse brain we have demonstrated that the appearance
+of the high-molecular-weight form of NS1 is a general feature of flavivirus
+infection. It is formed between 20 and 40 min after NS1 is synthesized and before
+the protein passes the Golgi apparatus. Both soluble and pelletable extracellular
+NS1 are also found as the high-molecular-weight form.
+
+DOI: 10.1016/0042-6822(88)90408-4 
+PMID: 2827377  [Indexed for MEDLINE]
+
+
+Prosite documentation: 
+Prodoc ID: PDOC51527
+Documentation: 
+*************************************************************
+* Flavivirus NS2B and NS3 protease (NS3pro) domain profiles *
+*************************************************************
+
+Pathogenic members  of  the  flavivirus family [E1], including West Nile Virus
+(WNV) and Dengue Virus (DV), are growing global threats for which there are no
+specific treatments.  The  genome  encodes  three structural proteins found in
+the mature virion (C, prM, and E) and seven "nonstructural" (i.e., not part of
+the virion architecture) proteins (NS1, NS2A, NS2B, NS3, NS4A, NS4B, and NS5).
+Full-length NS3  is  a  bifunctional  protein.  The  N-terminal  175  residues
+comprise a  chymotrypsin-like protease, "NS3pro", while the C-terminal portion
+is a   helicase  ("NS3hel").  The  NS2B  protein,  which  is  located  in  the
+polypeptide precursor  immediately upstream of the NS3pro domain, functions as
+the cofactor  for  NS3pro.  A  35-48  residue  central portion is required for
+protease activity  in  vitro,  while  N-  and  C-terminal flanking hydrophobic
+regions are predicted to anchor the NS2B-NS3 complex into the host endoplasmic
+reticulum  membrane. The  two component flaviviral enzyme NS2B-NS3 cleaves the
+viral polyprotein  precursor  within the host cell, a process that is required
+for viral  replication  [1,2,3].  The  NS3pro domain forms peptidase family S7
+(flavivirin family) of clan PA [E2].
+
+The NS3pro  has  a  classical  serine  protease catalytic triad (His, Asp, and
+Ser). The  enzymatic  activity  of  NS3pro is enhanced by interacting with the
+central 40  amino acid of NS2B which acts as an essential cofactor. The NS3pro
+domain has  an  overall structure of two barrels made of six beta sheets each,
+with the  active  site  located  in  the  cleft  between the barrels. The NS2B
+hydrophilic core  cofactor  contributes one of the N-terminal beta sheets (see
+<PDB:3L6P>) [1,2,3].
+
+The profiles we developed cover the entire flavivirus NS2B and NS3pro domains.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Last update: March 2011 / First entry.
+
+
+
+Prodoc ID: PDOC51192
+Documentation: 
+**************************************************
+* Superfamilies 1 and 2 helicase domain profiles *
+**************************************************
+
+Helicases  have  been  classified in 5 superfamilies (SF1-SF5) [1]. All of the
+proteins  bind ATP and, consequently, all of them carry the classical Walker A
+(phosphate-binding   loop   or   P-loop)   (see   <PDOC00017>)  and  Walker  B
+(Mg2+-binding  aspartic acid) motifs [1]. For the two largest groups, commonly
+referred  to  as  SF1 and SF2, a total of seven characteristic motifs has been
+identified  [2].  These  two superfamilies encompass a large number of DNA and
+RNA helicases from archaea, eubacteria, eukaryotes and viruses that seem to be
+active  as  monomers  or  dimers.  RNA  and DNA helicases are considered to be
+enzymes  that  catalyze  the separation of double-stranded nucleic acids in an
+energy-dependent manner [3].
+
+The various structures of SF1 and SF2 helicases present a common core with two
+alpha-beta   RecA-like   domains  (see  for  example  <PDB:1FUU>)  [3,4].  The
+structural  homology  with  the  RecA  recombination  protein  covers the five
+contiguous  parallel  beta  strands and the tandem alpha helices. ATP binds to
+the  amino proximal alpha-beta domain, where the Walker A (motif I) and Walker
+B (motif  II) are found. The N-terminal domain also contains motif III (S-A-T)
+which  was  proposed to participate in linking ATPase and helicase activities.
+The  carboxy-terminal  alpha-beta  domain  is structurally very similar to the
+proximal  one even though it is bereft of an ATP-binding site, suggesting that
+it may have originally arisen through gene duplication of the first one.
+
+Some members of helicase superfamilies 1 and 2 are listed below:
+
+ - DEAD-box  RNA  helicases  (see  <PDOC00039>).  The  prototype  of  DEAD-box
+   proteins  is  the translation initiation factor eIF4A. The eIF4A protein is
+   an  RNA-dependent  ATPase  which  functions  together  with eIF4B as an RNA
+   helicases [5].
+ - DEAH-box  RNA  helicases (see <PDOC00039>). Mainly pre-mRNA-splicing factor
+   ATP-dependent RNA helicases [5].
+ - Eukaryotic   DNA  repair  helicase RAD3/ERCC-2, an ATP-dependent 5'-3'  DNA
+   helicase involved in nucleotide excision repair of UV-damaged DNA.
+ - Eukaryotic  TFIIH  basal transcription factor complex helicase XPB subunit.
+   An  ATP-dependent 3'-5' DNA helicase which is a component of the core-TFIIH
+   basal transcription factor, involved in nucleotide excision repair (NER) of
+   DNA  and, when complexed to CAK, in RNA transcription by RNA polymerase II.
+   It  acts  by  opening DNA either around the RNA transcription start site or
+   the DNA.
+ - Eukaryotic  ATP-dependent  DNA  helicase  Q. A DNA helicase that may play a
+   role  in  the  repair  of DNA that is damaged by ultraviolet light or other
+   mutagens.
+ - Eukaryotic  ATP-dependent  helicase  SNF2/RAD54.  A  group of ATP-dependent
+   remodelling factors frequently found associated with histone deacetylases.
+ - Bacterial  and  eukaryotic antiviral SKI2-like helicase. SKI2 has a role in
+   the  3'-mRNA  degradation  pathway. It represses dsRNA virus propagation by
+   specifically  blocking  translation of viral mRNAs, perhaps recognizing the
+   absence of CAP or poly(A).
+ - Bacterial  DNA-damage-inducible  protein  G  (DinG).  A  probable  helicase
+   involved in DNA repair and perhaps also replication.
+ - Bacterial  primosomal  protein  N'  (PriA).  PriA  protein  is one of seven
+   proteins  that  make  up  the restart primosome, an apparatus that promotes
+   assembly   of   replisomes   at  recombination  intermediates  and  stalled
+   replication forks.
+ - Bacterial  ATP-dependent  DNA  helicase  recG.  It  has  a critical role in
+   recombination   and   DNA   repair.  It  helps  process  Holliday  junction
+   intermediates  to  mature products by catalyzing branch migration. It has a
+   DNA  unwinding  activity  characteristic  of a DNA helicase with a 3' to 5'
+   polarity.
+ - ssRNA positive-strand  flaviviruses and potyviruses RNA helicase.
+ - dsDNA viruses early transcription factor 70 kDa subunit.
+ - dsDNA  viruses  nucleoside  triphosphatase I (NPH I) protein. It serves two
+   roles   in  transcription;  it  acts  in  concert  with  viral  termination
+   factor/capping enzyme to catalyze release of UUUUUNU-containing nascent RNA
+   from  the  elongation  complex,  and  it  acts  by  itself  as a polymerase
+   elongation factor to facilitate readthrough of intrinsic pause sites.
+ - Poxviruses  transcript  release  DNA  helicase.  It  prevents virus-induced
+   breakdown of RNA. It acts as a negative transcription elongation factor. It
+   is involved in an ATP-dependent manner in release of nascent RNA.
+
+To  recognize  helicase  Superfamilies 1 and 2 we have developed two profiles.
+The  first one recognizes all classical SF1 and SF2 helicases except bacterial
+DinG protein  and eukaryotic Rad3 which belong to the same subfamily and which
+differ  from  other  SF1-SF2 helicases by the presence of a large insert after
+the Walker A [6]. Our second profile recognizes specifically this subfamily.
+
+-Sequences known to belong to this class detected by the first profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the second profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the third profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Note: UvrD (see <PDOC51198>) also belong to SF1 but is not picked-up by these
+ profiles.
+-Note:  secA  is  a  bacterial protein important for protein export which also
+ contains  the seven motifs characteristic of SF1 and SF2. We also developed a
+ profile specific for this family (see <PDOC01016>).
+
+-Last update: April 2006 / First entry.
+
+
+
+Prodoc ID: PDOC50507
+Documentation: 
+*********************************************************
+* RNA-directed RNA polymerase catalytic domain profiles *
+*********************************************************
+
+RNA-directed  RNA  polymerase  (RdRp)  (EC  2.7.7.48)  is an essential protein
+encoded  in the genomes of all RNA containing viruses with no DNA stage [1,2].
+It  catalyses  synthesis  of  the  RNA  strand  complementary  to  a given RNA
+template,  but the precise molecular mechanism remains unclear. The postulated
+RNA replication process is a two-step mechanism. First, the initiation step of
+RNA  synthesis  begins at or near the 3' end of the RNA template by means of a
+primer-independent (de novo) mechanism. The de novo initiation consists in the
+addition  of  a  nucleotide  tri-phosphate  (NTP)  to  the  3'-OH of the first
+initiating   NTP.  During  the  following  so-called  elongation  phase,  this
+nucleotidyl transfer reaction is repeated with subsequent NTPs to generate the
+complementary RNA product [3].
+
+All  the  RNA-directed  RNA  polymerases,  and  many DNA-directed polymerases,
+employ a fold whose organization has been likened to the shape of a right hand
+with  three  subdomains  termed  fingers, palm and thumb (see <PDB:1RDR>) [4].
+Only  the  palm subdomain, composed of a four-stranded antiparallel beta-sheet
+with two alpha-helices, is well conserved among all of these enzymes. In RdRp,
+the palm subdomain comprises three well conserved motifs (A, B and C). Motif A
+(D-x(4,5)-D)  and  motif C (GDD) are spatially juxtaposed; the Asp residues of
+these  motifs  are implied in the binding of Mg2+ and/or Mn2+. The Asn residue
+of  motif  B  is  involved  in  selection of ribonucleoside triphosphates over
+dNTPs and thus determines whether RNA is synthesized rather than DNA [5].
+
+RNA  viruses with no DNA stage can be placed in three main categories based on
+their replication and coding strategies: positive single-stranded RNA (ssRNA),
+negative   ssRNA   and  double-stranded  RNA  (dsRNA)  viruses.  To  recognize
+RNA-directed RNA polymerase we have developed six profiles that roughly follow
+this  classification  (see below). They are all directed against the catalytic
+region (palm subdomain).
+
+-Sequences known to belong to this class detected by the first profile:    ALL
+ positive   ssRNA   viruses,   two   small  families  of  dsRNA  viruses:  the
+ Partitiviridae  and  the  Totoviridae  and  some  eukaryotic RdRps.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the second profile:   ALL
+ bacteriophages RdRps.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the third profile:    ALL
+ RdRps of the Reoviridae family of dsRNA viruses.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the fourth profile:   ALL
+ RdRps of the Birnaviridae family of dsRNA viruses.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the fifth profile:    ALL
+ RdRps  of negative ssRNA viruses with segmented genomes except the ophiovirus
+ and the varicovirus.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the sixth profile:    ALL
+ RdRps   of  negative  ssRNA  viruses  with  non-segmented  genomes  plus  the
+ ophiovirus and the varicovirus.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Note: The GDD motif lacks in Birnaviridae RNA-directed RNA polymerases [6].
+
+-Last update: November 2005 / First entry.
+
+
+
+Prodoc ID: PDOC51555
+Documentation: 
+************************************************************
+* Class I SAM-dependent methyltransferases family profiles *
+************************************************************
+
+Methyltransferases (MTs) (EC 2.1.1.-) constitute an important class of enzymes
+present  in every life form. They transfer a methyl group most frequently from
+S-adenosyl  L-methionine  (SAM  or  AdoMet) to a nucleophilic acceptor such as
+nitrogen,  oxygen,  sulfur  or  carbon  leading  to  S-adenosyl-L-homocysteine
+(AdoHcy)  and  a  methylated  molecule.  The substrates that are methylated by
+these  enzymes  cover  virtually every kind of biomolecules ranging from small
+molecules, to  lipids,  proteins and nucleic acids. MTs are therefore involved
+in many   essential   cellular   processes   including   biosynthesis,  signal
+transduction, protein repair, chromatin regulation and gene silencing [1,2,3].
+More than 230 different enzymatic reactions of MTs have been described so far,
+of which more than 220 use SAM as the methyl donor [E1]. A review published in
+2003 [2]  divides  all  MTs  into  5  classes  based on the structure of their
+catalytic domain (fold):
+
+ - class I:    Rossmann-like                    alpha/beta
+ - class II:   TIM beta/alpha-barrel            alpha/beta
+ - class III:  tetrapyrrole methylase           alpha/beta
+ - class IV:   SPOUT                            alpha/beta     see <PDOC51604>
+ - class V:    SET domain                       all beta       see <PDOC51565>
+
+A  more  recent  paper  [3]  based  on a study of the Saccharomyces cerevisiae
+methyltransferome argues for four more folds:
+
+ - class VI:   transmembrane                    all alpha      see <PDOC51598>
+ - class VII:  DNA/RNA-binding 3-helical bundle all alpha
+ - class VIII: SSo0622-like                     alpha+beta
+ - class IX:   thymidylate synthetase           alpha+beta
+
+The vast  majority  of  MTs  belong  to the Rossmann-like fold (Class I) which
+consists in  a  seven-stranded  beta sheet adjoined by alpha helices. The beta
+sheet contains a central topological switch-point resulting in a deep cleft in
+which SAM binds. Class I MTs display two conserved positions, the first one is
+a GxGxG  motif  (or  at least a GxG motif) at the end of the first beta strand
+which is characteristic of a nucleotide-binding site and is hence used to bind
+the adenosyl  part  of SAM, the second conserved position is an acidic residue
+at the  end  of  the  second  beta strand that forms one hydrogen bond to each
+hydroxyl of  the  SAM  ribose  part.  The core of these enzymes is composed by
+about 150  amino acids that show very strong spatial conservation. Catechol O-
+MT (EC  2.1.1.6)  is  the canonical Class I MT considering that it consists in
+the exact consensus structural core with no extra domain (see <PDB:1VID>) [2].
+
+Some enzymatic activities known to belong to the Class I superfamily:
+
+Profiles directed against domains:
+
+ - C5-MTs  (see  <PDOC00089>):  DNA  (cytosine-5-)-MT  (EC  2.1.1.37) and tRNA
+   (cytosine(38)-C(5))-MT (EC 2.1.1.204).
+ - Domains rearranged MTs (DRMs) (EC=2.1.1.37).
+ - Dot 1 MT (EC 2.1.1.43) (see <PDOC51569>).
+ - Eukaryotic and dsDNA viruses mRNA cap 0 MT (EC 2.1.1.56) (see <PDOC51562>).
+ - Flavivirus mRNA cap 0 and cap 1 MT (EC 2.1.1.56 and EC 2.1.1.57) [4,5,6].
+ - Mononegavirus  L  protein 2'-O-ribose MT domain, involved in the capping of
+   viral mRNAs (cap 1 structure) [7,8].
+ - Protein    arginine   N-MTs   (PRMTs)   including   histone-arginine   N-MT
+   (EC 2.1.1.125) and [Myelin basic protein]-arginine N-MT (EC 2.1.1.126).
+ - RMT2   MTs:   arginine  N-MT  2  (EC  2.1.1.-)  and  guanidinoacetate  N-MT
+   (EC 2.1.1.2) [9,10].
+ - TRM1 tRNA (guanine(26)-N(2))-diMT (EC 2.1.1.216).
+ - TRM5/TYW2 tRNA (guanine(37)-N(1))-MT (EC 2.1.1.228).
+ - ERG6/SMT  MTs: methylate sterol and triterpene.
+ - RsmB/NOP MTs: RNA (cytosine-5-)-MTs.
+ - RNA   5-methyluridine  (m(5)U)  MTs  (EC  2.1.1.35,  EC  2.1.1.189  and  EC
+   2.1.1.190).
+ - RrmJ mRNA (nucleoside-2'-O-)-MT (EC 2.1.1.57).
+ - Adrift ribose 2'-O-MT (EC 2.1.1.-).
+ - TrmB tRNA (guanine(46)-N(7))-MT (EC 2.1.1.33).
+
+Profiles directed against whole-length proteins:
+
+ - Glycine   and  glycine/sarcosine  N-methyltransferase  (EC  2.1.1.20 and EC
+   2.1.1.156).
+ - mRNA  (2'-O-methyladenosine-N(6)-)-MT  (EC  2.1.1.62) and other MT-A70-like
+   MTs.
+ - Phosphoethanolamine N-MT (PEAMT) (EC 2.1.1.103).
+ - dsRNA viruses mRNA cap 0 MT (EC 2.1.1.56).
+ - Poxvirus/kinetoplastid cap ribose 2'-O-MT.
+ - NNT1 nicotinamide N-MT (EC 2.1.1.1).
+ - NNMT/PNMT/TEMT  MTs  (see  <PDOC00844>):  nicotinamide  N-MT  (EC 2.1.1.1),
+   phenylethanolamine N-MT (EC 2.1.1.28) and amine N-MT (EC 2.1.1.49).
+ - HNMT histamine N-MT (EC 2.1.1.8).
+ - Putrescine N-MT (EC 2.1.1.53).
+ - CLNMT calmodulin-lysine N-MT (EC 2.1.1.60).
+ - TRM61   tRNA   (adenine(57)-N(1)/adenine(58)-N(1)  or  adenine(58)-N(1))-MT
+   (EC 2.1.1.219 or EC 2.1.1.220).
+ - UbiE 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase (EC 2.1.1.201).
+ - Tocopherol  O-MT  (EC  2.1.1.95).  The  Synechocystis  homologue  has not a
+   tocopherol MT but a MPBQ/MSBQ activity (EC 2.1.1.295) (see below) [11,12].
+ - 2-methyl-6-phytyl-1,4-benzoquinone/2-methyl-6-solanyl-1,4-benzoquinone   MT
+   (MPBQ/MSBQ MT) (EC 2.1.1.295) [12].
+ - Cation-dependent  O-MT  includes caffeoyl-CoA O-MT (CCoAOMT) (EC 2.1.1.104)
+   that is  involved  in plant defense, catechol O-MT (COMT) (EC 2.1.1.6) that
+   plays an  important  role  in  the  central nervous system in the mammalian
+   organism, and a family of bacterial OMTs that may be involved in antibiotic
+   production.
+ - Cation-independent  O-MT  includes  caffeic  acid  OMTs  that  are  able to
+   methylate the  monolignol  precursors  caffeic  acid (EC 2.1.1.68), caffeyl
+   aldehyde, or   caffeyl   alcohol,  acetylserotonin  OMT  (EC  2.1.1.4)  and
+   acetylserotonin OMT-like (EC 2.1.1.-).
+ - Magnesium protoporphyrin IX MT (EC 2.1.1.11).
+ - rRNA adenine N(6)-MT and adenine N(6), N(6)-diMT.
+ - TRM11   MTs:   tRNA   (guanine(10)-N2)-MT   (EC   2.1.1.214)  and  homologs
+   (EC 2.1.1.-).
+ - Methionine S-MT (EC 2.1.1.12).
+ - TPMT  MTs:  thiopurine  S-MT  (EC  2.1.1.67),  thiol  S-MT (EC 2.1.1.9) and
+   thiocyanate MT (EC 2.1.1.n4).
+
+The profiles we developed cover the entire domains or families.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Last update: October 2013 / Profile added and text revised.
+
+
+
+
+
+
+ID: Q6W352_CVEN9
+Protein name: Envelope small membrane protein 
+GO:0046760, meaning: P:viral budding from Golgi membrane
+Organism: Equine coronavirus (isolate NC99) (ECoV).
+SUBCELLULAR LOCATION: Host Golgi apparatus membrane 
+Abstracts of references: 
+No references found.
+Prosite documentation: 
+No prosite IDs found.
+
+
+
+
+
+ID: D9SV67_CLOC7
+Protein name: Nitroreductase 
+No GOs associated.
+Organism: Clostridium cellulovorans (strain ATCC 35296 / DSM 3052 / OCM 3 / 743B).
+No subcellular loctions found.
+Abstracts of references: 
+No references found.
+Prosite documentation: 
+No prosite IDs found.
+
+
+
+
+
+ID: A9KSF7_LACP7
+Protein name: Nitroreductase 
+No GOs associated.
+Organism: Lachnoclostridium phytofermentans (strain ATCC 700394 / DSM 18823 / ISDg) (Clostridium phytofermentans).
+No subcellular loctions found.
+Abstracts of references: 
+No references found.
+Prosite documentation: 
+No prosite IDs found.
+
+
+
+
+
+ID: B8I7R6_RUMCH
+Protein name: TM1586_NiRdase domain
+No GOs associated.
+Organism: Ruminiclostridium cellulolyticum (strain ATCC 35319 / DSM 5812 / JCM 6584 / H10) (Clostridium cellulolyticum).
+No subcellular loctions found.
+Abstracts of references: 
+No references found.
+Prosite documentation: 
+No prosite IDs found.
+
+
+
+
+
