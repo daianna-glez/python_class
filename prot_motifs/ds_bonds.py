@@ -40,7 +40,7 @@ def ds_bond(paths):
         # Create the PDB parser and ignore warnings
         parser = PDB.PDBParser(QUIET=True)
         # Get the structure from the file 
-        struct=parser.get_structure(f'protein{prot_name}',path)
+        struct=parser.get_structure('protein', path)
         # For each module, get each chain and search the given one 
         for model in struct:
             for chain in model:
