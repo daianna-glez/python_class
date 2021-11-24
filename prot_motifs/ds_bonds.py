@@ -6,8 +6,8 @@ import re
 # Create the parser
 my_parser = argparse.ArgumentParser(description="Program that obtains protein motifs")
 # Add an argument to request the input file
-my_parser.add_argument("-i", "--input", nargs='+',
-                    type=list,
+my_parser.add_argument("-l", "--list", nargs='+',
+                    type=str,
                     help="List of the proteins files paths",
                     required=True)
 # Execute the parse_args() method
@@ -72,4 +72,4 @@ def ds_bond(paths):
 
 
 #Call the function with the arguments given
-ds_bond(args.input)
+ds_bond(args.list)
