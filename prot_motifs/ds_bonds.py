@@ -1,12 +1,11 @@
 from Bio import PDB
 import argparse
-import os
-import re
+
 
 # Create the parser
 my_parser = argparse.ArgumentParser(description="Program that obtains protein motifs")
 # Add an argument to request the input file
-my_parser.add_argument("-l", "--list", nargs='+',
+my_parser.add_argument("-i", "--input",  nargs='+',
                     type=str,
                     help="List of the proteins files paths",
                     required=True)
@@ -27,11 +26,9 @@ def ds_bond(paths):
     """
     # Get disulfide bonds in each protein/file
     for path in paths:
-        print(path)
         # Parse protein name from the path file
-        prot_name=path.split('/')[2]
+        prot_name=str(path).split('/')[2]
         prot_name=str(prot_name).split('.')[0]
-        print(prot_name)
 
         # Create output dictionaty
         bonds=[]
@@ -40,7 +37,7 @@ def ds_bond(paths):
         # Create the PDB parser and ignore warnings
         parser = PDB.PDBParser(QUIET=True)
         # Get the structure from the file 
-        struct=parser.get_structure(f'protein{prot_name}',path)
+        struct=parser.get_structure('protein',path)
         # For each module, get each chain and search the given one 
         for model in struct:
             for chain in model:
@@ -72,4 +69,4 @@ def ds_bond(paths):
 
 
 #Call the function with the arguments given
-ds_bond(args.list)
+ds_bond(args.input)
