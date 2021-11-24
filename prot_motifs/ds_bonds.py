@@ -1,7 +1,20 @@
 from Bio import PDB
+import argparse
+import os
+import re
 
+# Create the parser
+my_parser = argparse.ArgumentParser(description="Program that obtains protein motifs")
+# Add an argument to request the input file
+my_parser.add_argument("-i", "--input",
+                    type=list,
+                    help="List of the proteins files paths",
+                    required=True)
+# Execute the parse_args() method
+args = my_parser.parse_args()
 
 def ds_bond(paths):
+    
     """
     This function gets a PDB file and the name of a protein's module chain  and returns
     possible disulfide bonds within the chain
@@ -55,7 +68,8 @@ def ds_bond(paths):
     
 
 #Example
-bondss=ds_bond(['../docs/1kcw.pdb', '../docs/1fat.pdb'])
+#bondss=ds_bond(['../docs/1kcw.pdb', '../docs/1fat.pdb'])
 
- 
 
+#Call the function with the arguments given
+ds_bond(args.input)
