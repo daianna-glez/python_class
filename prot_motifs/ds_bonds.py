@@ -6,7 +6,7 @@ import re
 # Create the parser
 my_parser = argparse.ArgumentParser(description="Program that obtains protein motifs")
 # Add an argument to request the input file
-my_parser.add_argument("-i", "--input",
+my_parser.add_argument("-i", "--input", nargs='+',
                     type=list,
                     help="List of the proteins files paths",
                     required=True)
@@ -40,7 +40,7 @@ def ds_bond(paths):
         # Create the PDB parser and ignore warnings
         parser = PDB.PDBParser(QUIET=True)
         # Get the structure from the file 
-        struct=parser.get_structure('protein', path)
+        struct=parser.get_structure(f'protein{prot_name}',path)
         # For each module, get each chain and search the given one 
         for model in struct:
             for chain in model:
