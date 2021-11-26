@@ -1,55 +1,102 @@
+'''
+NAME
+    motifs.py
+VERSION
+    [2.1.0]
+AUTHOR
+    Daianna Gonzalez Padilla <daianna@lcg.unam.mx>
+DESCRIPTION
+    This module is part of prot_motifs package ..
+CATEGORY
+     PDB files analysis
+USAGE
+    None
+ARGUMENTS
+
+INPUT
+    The input depends on the fuction used. Both requiere the database name to search information
+
+    must be in a folder outside the current directory
+OUTPUT
+    The output depends on the function
+
+EXAMPLES
+    Example 1.1: gets  dictionary={"FieldList":'ECNO', "LinkList":"protein_protein_small_genome"}
+                       get_descriptions('protein',dictionary)
+               and returns:  EC number for enzyme or CAS registry number
+                             All proteins from this genome
+
+    Example 1.2: gets  search_articles(data_base="pubmed") whit the following inputs:
+                        name= Valeria Mateo-Estrada
+                        word_title= Genomic
+                        word_title= DNA
+                and returns an output file with the following text:
+                        Results:
+                        1 article(s) found, whose ID(s) (for the first 20) are :['34282943']
+
+
+SOURCE
+    https://github.com/daianna21/python_class/blob/master/tareas/Entrez_search.py
+'''
 from Bio import PDB
 import argparse
 import re
 
 # Create the argument parser
 my_parser = argparse.ArgumentParser(description="Program that obtains protein motifs")
-# Add arguments
+# Add arguments: choose which motifs to search
 # Request input files
 my_parser.add_argument("-i", "--input",  nargs='+',
                     type=str,
                     help="List of the proteins files paths",
                     required=True)
-# Request distance between S atoms
+# Give distance between S atoms
 my_parser.add_argument("-d", "--disulfide",
                     type=float,
-                    help="Get disulfide bonds within the protein",
+                    help="Distance between S-S atoms. 8 by default",
                     required=False)
-#
+# Give a pattern to search
 my_parser.add_argument("-a", "--alpha",
                     type=str,
-                    help="Get alpha helix sequences within the protein",
+                    help="Sequence pattern to search alpha helix. Use default..",
                     required=False)
 my_parser.add_argument("-b", "--beta",
                     type=str,
-                    help="Get beta sheets sequences within the protein",
+                    help="Sequence pattern to search beta sheets",
                     required=False)
+# Search a new motif
 my_parser.add_argument("-m", "--motif", nargs='+',
                     type=str,
-                    help="Get particular motif sequences within the protein",
+                    help="Motif to search and minimal length. ",
                     required=False)
 
 # Execute the parse_args() method
 args = my_parser.parse_args()
 
+# Dictionary of single letter code of aa
 aa_code = {'CYS': 'C', 'ASP': 'D', 'SER': 'S', 'GLN': 'Q', 'LYS': 'K',
  'ILE': 'I', 'PRO': 'P', 'THR': 'T', 'PHE': 'F', 'ASN': 'N',
  'GLY': 'G', 'HIS': 'H', 'LEU': 'L', 'ARG': 'R', 'TRP': 'W',
  'ALA': 'A', 'VAL':'V', 'GLU': 'E', 'TYR': 'Y', 'MET': 'M'}
 
-def ds_bond(path, prot_name, length=8):
+
+def ds_bond(path, prot_name, distance=8):
     """
-    This function gets a PDB file and the name of a protein's module chain  and returns
-    possible disulfide bonds within the chain
+    This function obtains potential disulfide bonds between sulfur atoms in a protein sequence from a pdb file.
             Parameters:
-                    path (str): absolute path to file
-                    chain_name (str): Single letter name of the protein module chain 
+                    path (str): relative path to .pdb file.
+                    prot_name (str): the file protein name
+                    distance (float): the maximal distance between sulfur atoms that form disulfide bonds
+                                    (in Armstrongs)
             Returns:
-                    ID of cisteines involved in each bond and the distance between their
-                    sulfur atoms in Armstrongs
+                    prot_dic (dict): dictionary with the protein name, number of disulfide bonds in
+                                    the whole protein, and the bonds themselves as lists with the
+                                    implicated Cys residues IDs, the distance between their sulfur
+                                    atoms, and the chain and model they belong to.
     """
-    # Create output dictionary
+    # Lists of bonds
     bonds=[]
+    # Number of bonds
     c=0
     # Create the PDB parser and ignore warnings
     parser = PDB.PDBParser(QUIET=True)
@@ -70,22 +117,37 @@ def ds_bond(path, prot_name, length=8):
                 for cys_2 in cys_chain:
                     if not cys_1==cys_2:
                         # Distance between sulfur atoms less than 8 A for unique pairs of Cys
-                        if (cys_1['SG']-cys_2['SG'])<length and [cys_1.get_id()[1], cys_2.get_id()[1]] not in pairs and [cys_2.get_id()[1], cys_1.get_id()[1]] not in pairs:
+                        if (cys_1['SG']-cys_2['SG'])<distance and [cys_1.get_id()[1], cys_2.get_id()[1]] \
+                                not in pairs and [cys_2.get_id()[1], cys_1.get_id()[1]] not in pairs:
                             pairs.append([cys_1.get_id()[1], cys_2.get_id()[1]])
-                            bonds.append([cys_1.get_id()[1], cys_2.get_id()[1], cys_1['SG']-cys_2['SG'], model, chain])
+                            bonds.append([cys_1.get_id()[1], cys_2.get_id()[1], cys_1['SG']-cys_2['SG'],
+                                          model, chain])
                             c=c+1
-
+    # Output dictionary
     prot_dic={'name':prot_name, 'num_bonds': c, 'di_bonds':bonds}
     print(prot_dic)
 
 
 
 def al_helix(path, prot_name, reg_exp="\B[HKR].{0,4}[HKR]{1}[^HRKPSG]{1,3}[DE]{1}.{0,4}[DE]\B"):
+    """
+    This function obtains potential alpha helices in a protein from a pdb file according to a pattern
+            Parameters:
+                    path (str): relative path to .pdb file
+                    prot_name (str): the file protein name
+                    reg_exp (str): regular expression that describes the sequence pattern to search in the
+                                   protein sequence. By default
+            Returns:
+                    prot_dic (dict): dictionary with the protein name, number of alpha helices found under
+                                    the pattern given
+                     in
+                                    the whole protein, and the bonds themselves as lists with the
+                                    implicated Cys residues IDs, the distance between their sulfur
+                                    atoms, and the chain and model they belong to.
+    """
     c=0
     motifs = []
-    # Create the PDB parser and ignore warnings
     parser = PDB.PDBParser(QUIET=True)
-    # Get the structure from the file
     struct = parser.get_structure('protein', path)
     # iterate each model, chain, and residue
     # printing out the sequence for each chain
