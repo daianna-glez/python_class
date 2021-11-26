@@ -48,26 +48,28 @@ my_parser = argparse.ArgumentParser(description="Program that obtains protein mo
 # Request input files
 my_parser.add_argument("-i", "--input",  nargs='+',
                     type=str,
-                    help="List of the proteins files paths",
+                    help="List of the proteins files paths, separated by whitespace and comma",
                     required=True)
 # Give distance between S atoms
 my_parser.add_argument("-d", "--disulfide",
                     type=float,
-                    help="Distance between S-S atoms. 8 by default",
+                    help="Distance between S-S atoms. Use default to use 8",
                     required=False)
-# Give a pattern to search
+# Give a pattern to search helices
 my_parser.add_argument("-a", "--alpha",
                     type=str,
-                    help="Sequence pattern to search alpha helix. Use default..",
+                    help="Sequence pattern to search alpha helices. Use default to search standard pattern",
                     required=False)
+# Give a pattern to search sheets
 my_parser.add_argument("-b", "--beta",
                     type=str,
-                    help="Sequence pattern to search beta sheets",
+                    help="Sequence pattern to search beta sheets. Use default to search standard pattern",
                     required=False)
-# Search a new motif
+# Give a new motif to search and its minimal length
 my_parser.add_argument("-m", "--motif", nargs='+',
                     type=str,
-                    help="Motif to search and minimal length. ",
+                    help="Motif to search and minimal length of the motif sequence. Use default to use 10 as "
+                         "minimal length",
                     required=False)
 
 # Execute the parse_args() method
@@ -84,8 +86,8 @@ def ds_bond(path, prot_name, distance=8):
     """
     This function obtains potential disulfide bonds between sulfur atoms in a protein sequence from a pdb file.
             Parameters:
-                    path (str): relative path to .pdb file.
-                    prot_name (str): the file protein name
+                    path (str): relative or absolute path to .pdb file.
+                    prot_name (str): the file protein name as a PDB ID
                     distance (float): the maximal distance between sulfur atoms that form disulfide bonds
                                     (in Armstrongs)
             Returns:
@@ -106,12 +108,11 @@ def ds_bond(path, prot_name, distance=8):
     for model in struct:
         for chain in model:
             cys_chain=[]
-            pairs=[]
             # Search Cys residues in the chain and store them
             for residue in chain:
                 if residue.get_resname() == 'CYS':
                     cys_chain.append(residue)
-
+            pairs = []
             # For each unique pair of Cys residues get its ID's and its sulfur atoms
             for cys_1 in cys_chain:
                 for cys_2 in cys_chain:
@@ -125,63 +126,78 @@ def ds_bond(path, prot_name, distance=8):
                             c=c+1
     # Output dictionary
     prot_dic={'name':prot_name, 'num_bonds': c, 'di_bonds':bonds}
-    print(prot_dic)
+    print(prot_dict)
+    return(prot_dic)
 
 
 
 def al_helix(path, prot_name, reg_exp="\B[HKR].{0,4}[HKR]{1}[^HRKPSG]{1,3}[DE]{1}.{0,4}[DE]\B"):
     """
-    This function obtains potential alpha helices in a protein from a pdb file according to a pattern
+    This function obtains potential alpha helices in a protein from a pdb file according to a search pattern
             Parameters:
-                    path (str): relative path to .pdb file
-                    prot_name (str): the file protein name
+                    path (str): relative or absolute path to .pdb file
+                    prot_name (str): the file protein name as a PDB ID
                     reg_exp (str): regular expression that describes the sequence pattern to search in the
-                                   protein sequence. By default
+                                   protein sequence. By default it uses "\B[HKR].{0,4}[HKR]{1}[^HRKPSG]{1,3}
+                                   [DE]{1}.{0,4}[DE]\B" searching sequences that start with positive aa, end
+                                   with negative ones and have positive aa 1 or 3 residues away from negatives.
             Returns:
                     prot_dic (dict): dictionary with the protein name, number of alpha helices found under
-                                    the pattern given
-                     in
-                                    the whole protein, and the bonds themselves as lists with the
-                                    implicated Cys residues IDs, the distance between their sulfur
-                                    atoms, and the chain and model they belong to.
+                                    the given patter, and the helices themselves as lists of the
+                                    alpha helices sequences, and the model and chain they belong to.
     """
+    # Count and store helices
     c=0
     motifs = []
     parser = PDB.PDBParser(QUIET=True)
     struct = parser.get_structure('protein', path)
-    # iterate each model, chain, and residue
-    # printing out the sequence for each chain
+    # Iterate each model, chain, and residue
     for model in struct:
         for chain in model:
             aa_seq = []
             helix_seqs = []
+            # Obtain the aa sequence of the protein
             for residue in chain:
                 if residue.resname in aa_code.keys():
                     aa_seq.append(aa_code[residue.resname])
+                # If element is not an aa
                 else:
                     aa_seq.append('-')
             aa_seq = ''.join(aa_seq)
             aa_seq = str(aa_seq)
-
+            # Search the pattern in the protein sequence
             matches = re.findall(reg_exp, aa_seq)
+            # Save only helices of at least 10 aa
             for helix in matches:
                 if len(helix) >= 10:
                     helix_seqs.append(helix)
                     c=c+1
-                    # print(helix)
-            motifs.append([chain, helix_seqs])
+            # Helices list
+            motifs.append([helix_seqs, model, chain])
     prot_dic = {'name': prot_name, 'num_helix': c, 'helix_seqs': motifs}
-    print(prot_dic)
+    print(prot_dict)
+    return(prot_dict)
 
 def b_sheets(path, name, reg_exp="\B.{1,4}[V,I,T,F,Y,W]+.{1,4}[V,I,T,F,Y,W]+.{1,4}"):
+    """
+    This function obtains potential beta sheets in a protein from a pdb file according to a search pattern
+            Parameters:
+                    path (str): relative or absolute path to .pdb file
+                    prot_name (str): the file protein name as a PDB ID
+                    reg_exp (str): regular expression that describes the sequence pattern to search in the
+                                   protein sequence. By default it uses "\B.{1,4}[V,I,T,F,Y,W]+.{1,4}
+                                   [V,I,T,F,Y,W]+.{1,4}", searching sequences with 1-4 
+            Returns:
+                    prot_dic (dict): dictionary with the protein name, number of alpha helices found under
+                                    the given patter, and the helices themselves as lists of the
+                                    alpha helices sequences, and the model and chain they belong to.
+    """
+    # Count and store beta sheets
     c=0
     motifs = []
-    # Create the PDB parser and ignore warnings
     parser = PDB.PDBParser(QUIET=True)
-    # Get the structure from the file
     struct = parser.get_structure('protein', path)
-    # iterate each model, chain, and residue
-    # printing out the sequence for each chain
+    # Get the protein sequence
     for model in struct:
         for chain in model:
             aa_seq = []
@@ -199,9 +215,10 @@ def b_sheets(path, name, reg_exp="\B.{1,4}[V,I,T,F,Y,W]+.{1,4}[V,I,T,F,Y,W]+.{1,
                 if len(sheet) >= 3:
                     sheets_seqs.append(sheet)
                     c=c+1
-            motifs.append([chain, sheets_seqs])
+            motifs.append([sheets_seqs, model, chain])
     prot_dic = {'name': prot_name, 'num_sheets': c, 'sheets_seqs': motifs}
     print(prot_dic)
+    return(prot_dic)
 
 def others(path, name, size=10, reg_exp="\B[V,I,T,F,Y,W]+[G,T,H,O]{1,3}"):
     c=0
@@ -242,8 +259,12 @@ for path in args.input:
     try:
         if path.endswith('.pdb'):
             # Parse protein name from the path file
-            prot_name = str(path).split('/')[-1]
-            prot_name = str(prot_name).split('.')[0]
+            if not '/' in path:
+                prot_name=str(path).split('.')[0]
+            else:
+                prot_name = str(path).split('/')[-1]
+                prot_name = str(prot_name).split('.')[0]
+
             if not args.disulfide==None:
                 if args.disulfide == -1:
                     ds_bond(path, prot_name)
