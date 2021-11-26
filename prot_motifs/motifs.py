@@ -2,17 +2,20 @@ from Bio import PDB
 import argparse
 import re
 
-# Create the parser
+# Create the argument parser
 my_parser = argparse.ArgumentParser(description="Program that obtains protein motifs")
-# Add an argument to request the input paths
+# Add arguments
+# Request input files
 my_parser.add_argument("-i", "--input",  nargs='+',
                     type=str,
                     help="List of the proteins files paths",
                     required=True)
+# Request distance between S atoms
 my_parser.add_argument("-d", "--disulfide",
                     type=float,
                     help="Get disulfide bonds within the protein",
                     required=False)
+#
 my_parser.add_argument("-a", "--alpha",
                     type=str,
                     help="Get alpha helix sequences within the protein",
@@ -21,6 +24,11 @@ my_parser.add_argument("-b", "--beta",
                     type=str,
                     help="Get beta sheets sequences within the protein",
                     required=False)
+my_parser.add_argument("-m", "--motif", nargs='+',
+                    type=str,
+                    help="Get particular motif sequences within the protein",
+                    required=False)
+
 # Execute the parse_args() method
 args = my_parser.parse_args()
 
@@ -133,8 +141,39 @@ def b_sheets(path, name, reg_exp="\B.{1,4}[V,I,T,F,Y,W]+.{1,4}[V,I,T,F,Y,W]+.{1,
     prot_dic = {'name': prot_name, 'num_sheets': c, 'sheets_seqs': motifs}
     print(prot_dic)
 
+def others(path, name, size=10, reg_exp="\B[V,I,T,F,Y,W]+[G,T,H,O]{1,3}"):
+    c=0
+    motifs = []
+    # Create the PDB parser and ignore warnings
+    parser = PDB.PDBParser(QUIET=True)
+    # Get the structure from the file
+    struct = parser.get_structure('protein', path)
+    # iterate each model, chain, and residue
+    # printing out the sequence for each chain
+    for model in struct:
+        for chain in model:
+            aa_seq = []
+            motif_seqs = []
+            for residue in chain:
+                if residue.resname in aa_code.keys():
+                    aa_seq.append(aa_code[residue.resname])
+                else:
+                    aa_seq.append('-')
+            aa_seq = ''.join(aa_seq)
+            aa_seq = str(aa_seq)
 
-if not args.alpha and not args.disulfide and not args.beta:
+            matches = re.findall(reg_exp, aa_seq)
+            for sheet in matches:
+                if len(sheet) >= size:
+                    motif_seqs.append(sheet)
+                    c=c+1
+            motifs.append([chain, motif_seqs])
+    prot_dic = {'name': prot_name, 'num_motif': c, 'motif_seqs': motifs}
+    print(prot_dic)
+
+
+
+if not args.alpha and not args.disulfide and not args.beta and not args.motif:
     print('At least one type of motif is required')
 
 for path in args.input:
@@ -160,6 +199,12 @@ for path in args.input:
                     b_sheets(path, prot_name)
                 else:
                     b_sheets(path, prot_name, args.beta)
+
+            if not args.motif == None:
+                if args.motif == 'default':
+                    others(path, prot_name)
+                else:
+                    others(path, prot_name, int(args.motif[1]), args.motif[0])
 
         else:
             print(path,' file must have .pdb format')
