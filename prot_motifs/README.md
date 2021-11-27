@@ -1,27 +1,35 @@
-# python_class
-## Descripción
-Repositorio para la clase de Python. En este repositorio se almacenan todos los trabajos y programas hechos para la clase de Python 2021
+# prot_motifs
 
-## Motivación
-Llevar un control de versiones de los archivos del repositorio 
 
-## Requisitos del sistema
+## Description
+This package allows to obtain protein disulfide bonds and standard motifs such as 
+aplha helices and beta sheets, and specific motifs given by the user.
 
-*No aplica*
+## Motivation
+Provide a simple and fast tool to identify protein motifs through defined search patterns,
+as an initial approach to count motifs and validate the patterns they follow.
 
-## Instalación
-*No aplica*
+## System requirements
 
-## Guía de usuario
+A Python version greater than or equal to 3 installed 
+The module uses Bio project and its PDB package, as well as re and argspase modules
 
-* La carpeta docs contiene notas de la clase
-* La carpeta scr tiene los recursos (datos) para desarrollar los programas
-* La carpeta results contiene los resultados de los programas hechos
+## Install
+ No program installation needed, just the package importation
 
-## Licencia
-*No aplica*
-## Información del contacto
-Autor: González Padilla Daianna
+## User guide
+The motifs module is executed in terminal, so the scripts that call it also must be executed 
+in the terminal. 
+Bio package must be in the same directory as the motifs module.
+
+## License
+To consult license see [License](License) 
+
+## Report
+To see the project report see [Report](Report.md) 
+
+## Contact
+Autor: Daianna González Padilla 
 
 E-mail: daianna@lcg.unam.mx
 
