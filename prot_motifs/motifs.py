@@ -3,7 +3,7 @@ NAME
     motifs.py
 
 VERSION
-    [2.1.2]
+    2.1.2
 
 AUTHOR
     Daianna Gonzalez Padilla <daianna@lcg.unam.mx>
