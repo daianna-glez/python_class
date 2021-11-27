@@ -1,28 +1,26 @@
 '''
 NAME
-    bio_analysis
+    prot_motifs
 
 VERSION
-    [1.0]
+    Package version 0.0
 
 AUTHOR
     Daianna Gonzalez Padilla <daianna@lcg.unam.mx>
 
 DESCRIPTION
-    This package works with biological data: dna sequences and regulatory networks to obtain general characteristics
+    This package works with PDB files to extract potential motifs of the proteins
 
 CATEGORY
-     Biological data analysis
+     Proteins and PDB files analysis
 
 USAGE
-    import bio_analysis
+    import prot_motifs
+    from prot_motifs import motifs
 
 MODULES
-    DNA.py
-    network.py
-
+    motifs.py
 '''
-
 
 print(f'Invoking __init__.py for {__name__}')
 import prot_motifs.motifs
