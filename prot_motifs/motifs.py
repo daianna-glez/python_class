@@ -43,7 +43,7 @@ OUTPUT
 
 EXAMPLES
     Example 1.1: receives in terminal:
-         .\motifs.py -i '../docs/1kcw.pdb' '../docs/1fat.pdb' -d 2 -a  default -b "/BT.{1,3}H/B" -m "V.{4}" 3
+         .\motifs.py -i 1kcw.pdb 1fat.pdb -d 2 -a  default -b "/BT.{1,3}H/B" -m "V.{4}" 3
     and prints:
         {'name': '1kcw', 'num_bonds': 1, 'di_bonds': [[155, 181, 1.9980831, <Model id=0>, <Chain id=A>]]}
         {'name': '1kcw', 'num_helix': 4, 'helix_seqs': [[['RIYHSHIDAPKD',..., 'KVNKDDEEFIE'],
