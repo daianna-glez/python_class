@@ -62,6 +62,7 @@
       <change beforePath="$PROJECT_DIR$/Bio/cpairwise2module.c" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/cpairwise2module.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bio/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/kNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bio/pairwise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/pairwise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/1fat.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1fat.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/1kcw.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1kcw.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/a.txt" afterDir="false" />
@@ -228,6 +229,7 @@
       <recent name="C:\Users\hp\Desktop\LCG\python_class\protein_motifs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\LCG\python_class\prot_motifs" />
       <recent name="C:\Users\hp\Desktop\LCG\python_class" />
       <recent name="C:\Users\hp\Desktop\LCG\python_class\docs" />
       <recent name="C:\Users\hp\Desktop\LCG\python_class\Computo" />
