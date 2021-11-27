@@ -2,6 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc1f5b9-d2e0-4448-9457-68bc2b077a07" name="Default Changelist" comment="Se creo el programa POO.py">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/Data/CodonTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/Data/CodonTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/Data/IUPACData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/Data/IUPACData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/Data/SCOPData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/Data/SCOPData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/Data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/Data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/File.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/File.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/LogisticRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/LogisticRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/MarkovModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/MarkovModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/MaxEntropy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/MaxEntropy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/NaiveBayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/NaiveBayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/AbstractPropertyMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/AbstractPropertyMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Atom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Atom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Chain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Chain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/DSSP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/DSSP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Dice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Dice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/FragmentMapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/FragmentMapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/HSExposure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/HSExposure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/MMCIF2Dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/MMCIF2Dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/MMCIFParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/MMCIFParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/NACCESS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/NACCESS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/NeighborSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/NeighborSearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/PDBExceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/PDBExceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/PDBIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/PDBIO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/PDBList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/PDBList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/PDBParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/PDBParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/PICIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/PICIO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/PSEA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/PSEA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Polypeptide.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Polypeptide.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Residue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Residue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/ResidueDepth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/ResidueDepth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/SASA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/SASA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/SCADIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/SCADIO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Structure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/StructureAlignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/StructureAlignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/StructureBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/StructureBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/Superimposer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/Superimposer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/ic_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/ic_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/ic_rebuild.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/ic_rebuild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/internal_coords.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/internal_coords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/kdtrees.c" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/kdtrees.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/kdtrees.cp37-win32.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/kdtrees.cp37-win32.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/mmcifio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/mmcifio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/parse_pdb_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/parse_pdb_header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/PDB/vectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/PDB/vectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/SVDSuperimposer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/SVDSuperimposer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/Seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/Seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/SeqFeature.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/SeqFeature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/SeqRecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/SeqRecord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/bgzf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/bgzf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/cpairwise2.cp37-win32.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/cpairwise2.cp37-win32.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/cpairwise2module.c" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/cpairwise2module.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/kNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bio/pairwise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/pairwise2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/1fat.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1fat.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/1kcw.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1kcw.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/a.txt" afterDir="false" />
@@ -72,6 +132,7 @@
       <change beforePath="$PROJECT_DIR$/prot_motifs/WXX/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/WXX/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/motifs.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/motifs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba.py" beforeDir="false" afterPath="$PROJECT_DIR$/prueba.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/GenBank.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/GenBank.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/POO.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/POO.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/Tarea 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Tarea 2.py" afterDir="false" />
