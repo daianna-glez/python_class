@@ -23,10 +23,10 @@ in the terminal.
 Bio package must be in the same directory as the motifs module.
 
 ## License
-To consult license see [License](License) 
+To consult license see [LICENSE](LICENSE) 
 
 ## Report
-To see the project report see [Report](Report.md) 
+To see the project report see [REPORT](REPORT.md) 
 
 ## Contact
 Autor: Daianna González Padilla 
