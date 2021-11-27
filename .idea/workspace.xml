@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc1f5b9-d2e0-4448-9457-68bc2b077a07" name="Default Changelist" comment="Se creo el programa POO.py">
+      <change afterPath="$PROJECT_DIR$/prot_motifs/1fat.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prot_motifs/1kcw.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bio/Data/CodonTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/Data/CodonTable.py" afterDir="false" />
@@ -214,14 +216,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/prot_motifs" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hp\Desktop\LCG\python_class" />
       <recent name="C:\Users\hp\Desktop\LCG\python_class\prot_motifs" />
+      <recent name="C:\Users\hp\Desktop\LCG\python_class" />
       <recent name="C:\Users\hp\Desktop\LCG\python_class\protein_motifs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
