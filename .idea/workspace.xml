@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc1f5b9-d2e0-4448-9457-68bc2b077a07" name="Default Changelist" comment="Se creo el programa POO.py">
-      <change afterPath="$PROJECT_DIR$/prot_motifs/1fat.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prot_motifs/1kcw.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bio/Data/CodonTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bio/Data/CodonTable.py" afterDir="false" />
@@ -70,6 +68,8 @@
       <change beforePath="$PROJECT_DIR$/docs/search_GOs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search_GOs.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/search_articles_Otto_Geiger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search_articles_Otto_Geiger.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/search_results_Otto Geiger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search_results_Otto Geiger.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prot_motifs/1fat.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/1fat.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prot_motifs/1kcw.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/1kcw.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/Bio/Data/CodonTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/Bio/Data/CodonTable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/Bio/Data/IUPACData.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/Bio/Data/IUPACData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/Bio/Data/SCOPData.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/Bio/Data/SCOPData.py" afterDir="false" />
@@ -128,6 +128,7 @@
       <change beforePath="$PROJECT_DIR$/prot_motifs/Bio/cpairwise2module.c" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/Bio/cpairwise2module.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/Bio/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/Bio/kNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/Bio/pairwise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/Bio/pairwise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prot_motifs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/WXX/CodonTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/WXX/CodonTable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/WXX/IUPACData.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/WXX/IUPACData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prot_motifs/WXX/SCOPData.py" beforeDir="false" afterPath="$PROJECT_DIR$/prot_motifs/WXX/SCOPData.py" afterDir="false" />
