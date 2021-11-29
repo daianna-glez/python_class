@@ -15,10 +15,10 @@ DESCRIPTION
 CATEGORY
      PDB files analysis
 USAGE
-    .\ds_bonds.py -i [str , str] -d [float] -a [str] -b [str] -m [str , str]
+    .\ds_bonds.py -i [str str ...] -d [float] -a [str] -b [str] -m [str str str]
 
 ARGUMENTS
-    -i, --input (strings separated by whitespace)
+    -i, --input (strings separated by whitespaces)
             PDB files paths
     -d, --disulfide (float)
             This option indicates to find disulfide bonds and receives the distance between sulfur atoms
@@ -29,27 +29,31 @@ ARGUMENTS
     -b, --beta (str in double quotes)
             This option indicates to find beta sheets in the protein and receives a search pattern or
             uses the default option by passing 'default'
-    -m, --motif (pattern str in double quotes and int as minimal length, separated by whitespace)
-            This option indicates to find new motifs in the protein and receives the search pattern and
-            the minimal length of the motif in residues
+    -m, --motif (pattern str in double quotes, int as minimal length, and the motif name as str, separated
+                by whitespaces)
+            This option indicates to find new motifs in the protein and receives the search pattern,
+            the minimal length of the motif in residues and the motif name.
 
 INPUT
     Requires the relative or absolute paths to files with .pdb extension and format.
     Depending on the arguments passed, the additional information provided.
 
 OUTPUT
-    The script execution returns and prints the output dictionaries generated for each file protein
-    containing the protein PDB ID as name, the number of motifs found and the motifs.
+    The script execution  prints the output dictionaries generated for each file protein
+    containing the protein PDB ID as name, the number of motifs found and the motifs. And returns
+    each motif sequences number found in each protein.
 
 EXAMPLES
     Example 1.1: receives in terminal:
-         .\motifs.py -i 1kcw.pdb 1fat.pdb -d 2 -a  default -b "/BT.{1,3}H/B" -m "V.{4}" 3
+         .\motifs.py -i 1kcw.pdb 1fat.pdb -d 2 -a  default -b "/BT.{1,3}H/B" -m "V.{4}" 3 beta_turns
     and prints:
         {'name': '1kcw', 'num_bonds': 1, 'di_bonds': [[155, 181, 1.9980831, <Model id=0>, <Chain id=A>]]}
         {'name': '1kcw', 'num_helix': 4, 'helix_seqs': [[['RIYHSHIDAPKD',..., 'KVNKDDEEFIE'],
                                                                 <Model id=0>, <Chain id=A>]]}
         {'name': '1kcw', 'num_sheets': 0, 'sheets_seqs': [[[], <Model id=0>, <Chain id=A>]]}
-        {'name': '1kcw', 'num_motifs': 50, 'motif_seqs': [[['VDTEH',..., 'VLQN-'], <Model id=0>, <Chain id=A>]]}
+        {'name': '1kcw', 'num_beta_turns': 50, 'beta_turns_seqs': [[['VDTEH',..., 'VLQN-'], <Model id=0>,
+                                                                                        <Chain id=A>]]}
+        {'name': '1kcw', 'num_bonds': 1, 'num_helix': 4, 'num_sheets': 0, 'num_beta_turns': 50}
         {'name': '1fat', 'num_bonds': 0, 'di_bonds': []}
         {'name': '1fat', 'num_helix': 4, 'helix_seqs': [[['KTTRWDFVNGE'], <Model id=0>, <Chain id=A>],
                                                         [['KTTRWDFVNGE'], <Model id=0>, <Chain id=B>],
@@ -59,10 +63,11 @@ EXAMPLES
         {'name': '1fat', 'num_sheets': 0, 'sheets_seqs': [[[], <Model id=0>, <Chain id=A>], [[], <Model id=0>,
                             <Chain id=B>], [[], <Model id=0>, <Chain id=C>], [[], <Model id=0>, <Chain id=D>]]}
 
-        {'name': '1fat', 'num_motifs': 60, 'motif_seqs': [[['VSSSG',...,'VLSWS'], <Model id=0>, <Chain id=A>],
-                                                          [['VSSSG',..,'VLSWS'], <Model id=0>, <Chain id=B>],
-                                                          [['VSSSG',...,'VLSWS'], <Model id=0>, <Chain id=C>],
-                                                          [['VSSSG',...,'VLSWS'], <Model id=0>, <Chain id=D>]]}
+        {'name': '1fat', 'num_beta_turns': 60, 'beta_turns_seqs': [[['VSSSG',...,'VLSWS'], <Model id=0>, <Chain id=A>],
+                                                                   [['VSSSG',..,'VLSWS'], <Model id=0>, <Chain id=B>],
+                                                                   [['VSSSG',...,'VLSWS'], <Model id=0>, <Chain id=C>],
+                                                                   [['VSSSG',...,'VLSWS'], <Model id=0>, <Chain id=D>]]}
+        {'name': '1fat', 'num_bonds': 0, 'num_helix': 4, 'num_sheets': 0, 'num_beta_turns': 60}
 
 SOURCE
     https://github.com/daianna21/python_class/blob/master/tareas/Entrez_search.py
@@ -94,10 +99,10 @@ my_parser.add_argument("-b", "--beta",
                     type=str,
                     help="Sequence pattern to search beta sheets. Use default to search standard pattern",
                     required=False)
-# Give a new motif to search and its minimal length
+# Give a new motif to search, its minimal length and name
 my_parser.add_argument("-m", "--motif", nargs='+',
                     type=str,
-                    help="Motif to search and minimal length of the motif sequence",
+                    help="Motif to search, minimal length of the motif sequence and its name",
                     required=False)
 
 # Execute the parse_args() method
@@ -118,11 +123,14 @@ def ds_bond(path, prot_name, distance=8):
                     prot_name (str): the file protein name as a PDB ID
                     distance (float): the maximal distance between sulfur atoms that form disulfide bonds
                                     (in Armstrongs). 8 is taken as default.
-            Returns:
+            Prints:
                     prot_dic (dict): dictionary with the protein name, number of disulfide bonds in
                                     the whole protein, and the bonds themselves as lists with the
                                     implicated Cys residues IDs, the distance between their sulfur
                                     atoms, and the chain and model they belong to.
+            Returns:
+                    num_bonds (str): string indicating the number of bonds
+                    c (int): number of bonds found
     """
     # Lists of bonds
     bonds=[]
@@ -155,7 +163,7 @@ def ds_bond(path, prot_name, distance=8):
     # Output dictionary
     prot_dic={'name':prot_name, 'num_bonds': c, 'di_bonds':bonds}
     print(prot_dic)
-    return(prot_dic)
+    return('num_bonds', c)
 
 
 
@@ -170,10 +178,13 @@ def al_helix(path, prot_name, reg_exp="\B[HKR].{0,4}[HKR]{1}[^HRKPSG]{1,3}[DE]{1
                                    [^HRKPSG]{1,3} [DE]{1}.{0,4}[DE]\B" searching sequences that start with
                                    positive aa, end with negative ones and have positive aa 1 or 3 residues
                                    away from negatives.
-            Returns:
+            Prints:
                     prot_dic (dict): dictionary with the protein name, number of alpha helices found under
                                     the given patter, and the helices themselves as lists of the
                                     alpha helices sequences, and the model and chain they belong to.
+            Returns:
+                    num_alpha (str): string indicating the number of alpha helices
+                    c (int): number of alpha helices found
     """
     # Count and store helices
     c=0
@@ -205,7 +216,8 @@ def al_helix(path, prot_name, reg_exp="\B[HKR].{0,4}[HKR]{1}[^HRKPSG]{1,3}[DE]{1
             motifs.append([helix_seqs, model, chain])
     prot_dic = {'name': prot_name, 'num_helix': c, 'helix_seqs': motifs}
     print(prot_dic)
-    return(prot_dic)
+    return('num_helix',c)
+
 
 def b_sheets(path, prot_name, reg_exp="\B.{1,4}[V,I,T,F,Y,W]+.{1,4}[V,I,T,F,Y,W]+.{1,4}"):
     """
@@ -217,10 +229,13 @@ def b_sheets(path, prot_name, reg_exp="\B.{1,4}[V,I,T,F,Y,W]+.{1,4}[V,I,T,F,Y,W]
                                    search in the protein sequence. By default it uses "\B.{1,4}[V,I,T,F,Y,W]
                                    +.{1,4} [V,I,T,F,Y,W]+.{1,4}", searching sequences with aromatic aa and
                                    beta branched aa in the middle of the sequence.
-            Returns:
+            Prints:
                     prot_dic (dict): dictionary with the protein name, number of beta sheets found under
                                     the given patter, and the sheets themselves as lists of the
                                     beta sheets sequences, and the model and chain they belong to.
+            Returns:
+                    num_beta (str): string indicating the number of beta sheets
+                    c (int): number of beta sheets found
     """
     # Count and store beta sheets
     c=0
@@ -249,9 +264,10 @@ def b_sheets(path, prot_name, reg_exp="\B.{1,4}[V,I,T,F,Y,W]+.{1,4}[V,I,T,F,Y,W]
             motifs.append([sheets_seqs, model, chain])
     prot_dic = {'name': prot_name, 'num_sheets': c, 'sheets_seqs': motifs}
     print(prot_dic)
-    return(prot_dic)
+    return('num_sheets',c)
 
-def others(path, prot_name, size, reg_exp):
+
+def others(path, prot_name, size, reg_exp, motif_name):
     """
     This function obtains potential sequences of a certain motif in a protein from a pdb file
             Parameters:
@@ -260,11 +276,15 @@ def others(path, prot_name, size, reg_exp):
                     size (int): minimal size of the motif sequences (in residues)
                     reg_exp (str): regular expression in double that describes the motif pattern to
                                    search in the protein sequence. No default.
+                    motif_name(str): motif name
 
-            Returns:
+            Prints:
                     prot_dic (dict): dictionary with the protein name, number of motif sequences found
                                     under the given patter, and the sequences themselves as lists of the
                                     motif sequences, and the model and chain they belong to.
+            Returns:
+                    num_[motif name] (str): string indicating the number of the motif sequences
+                    c (int): number of those motifs found
     """
     # Count and store the motifs
     c=0
@@ -291,9 +311,71 @@ def others(path, prot_name, size, reg_exp):
                     motif_seqs.append(sheet)
                     c=c+1
             motifs.append([motif_seqs, model, chain])
-    prot_dic = {'name': prot_name, 'num_motifs': c, 'motif_seqs': motifs}
+    prot_dic = {'name': prot_name, f'num_{motif_name}': c, f'{motif_name}_seqs': motifs}
     print(prot_dic)
-    return(prot_dic)
+    return(f'num_{motif_name}',c)
+
+
+def unique_dict(path,prot_name, args_disulfide, args_alpha, args_beta, args_motif):
+    """
+    This function makes a count of the number of the motifs given found in the protein.
+            Parameters:
+                    path (str): relative or absolute path to .pdb file
+                    prot_name (str): the file protein name as a PDB ID
+                    args_disulfide (class str): -d arguments given by the user. 'None' if they don't exist
+                    args_alpha (class str): -a arguments given by the user. 'None' if they don't exist
+                    args_beta (class str): -b arguments given by the user. 'None' if they don't exist
+                    args_motif (class str): -m arguments given by the user. 'None' if they don't exist
+
+            Prints & Returns:
+                    dic (dict): dictionary with the protein name and the number of each of the given motifs
+                                of the protein
+
+    """
+    # Create dictionary
+    dic={'name': prot_name,}
+    # Check if -d option is given
+    if not args_disulfide == None:
+        # Default distance value
+        if args_disulfide == -1:
+            count=ds_bond(path, prot_name)
+        # Use distance value given
+        else:
+            count=ds_bond(path, prot_name, args_disulfide)
+        # Add key and value
+        dic[count[0]]=count[1]
+
+
+    # Check if -a argument is given
+    if not args_alpha == None:
+        # Use default pattern
+        if args_alpha == 'default':
+            count=al_helix(path, prot_name)
+        # Use pattern given
+        else:
+            count = al_helix(path, prot_name, args_alpha)
+        # Add key and value
+        dic[count[0]]=count[1]
+
+    # Check if -b argument is given
+    if not args_beta == None:
+        # Use default pattern
+        if args_beta == 'default':
+           count= b_sheets(path, prot_name)
+        # Use pattern given
+        else:
+            count=b_sheets(path, prot_name, args_beta)
+        # Add key and value
+        dic[count[0]]=count[1]
+
+    # Check if -m argument is given
+    if not args_motif == None:
+        count = others(path, prot_name, int(args_motif[1]), args_motif[0], args_motif[2])
+        # Add key and value
+        dic[count[0]]=count[1]
+
+    print(dic)
+    return (dic)
 
 
 # Check there are arguments for at least one motif
@@ -312,37 +394,8 @@ for path in args.input:
                 prot_name = str(path).split('/')[-1]
                 prot_name = str(prot_name).split('.')[0]
 
-            # Check if -d option is given
-            if not args.disulfide==None:
-                # Default distance value
-                if args.disulfide == -1:
-                    ds_bond(path, prot_name)
-                #Use distance value given
-                else:
-                    ds_bond(path, prot_name, args.disulfide)
-
-            # Check if -a argument is given
-            if not args.alpha == None:
-                # Use default pattern
-                if args.alpha == 'default':
-                    al_helix(path, prot_name)
-                # Use pattern given
-                else:
-                    al_helix(path, prot_name, args.alpha)
-
-            # Check if -b argument is given
-            if not args.beta == None:
-                # Use default pattern
-                if args.beta == 'default':
-                    b_sheets(path, prot_name)
-                # Use pattern given
-                else:
-                    b_sheets(path, prot_name, args.beta)
-
-            # Check if -m argument is given
-            if not args.motif == None:
-                others(path, prot_name, int(args.motif[1]), args.motif[0])
-
+            # Obtain motifs for each protein
+            unique_dict(path,prot_name, args.disulfide, args.alpha, args.beta, args.motif)
         else:
             print(path,' file must have .pdb format')
     except FileNotFoundError as ex:
