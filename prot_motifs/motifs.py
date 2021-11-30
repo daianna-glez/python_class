@@ -70,7 +70,7 @@ EXAMPLES
         {'name': '1fat', 'num_bonds': 0, 'num_helix': 4, 'num_sheets': 0, 'num_beta_turns': 60}
 
 SOURCE
-    https://github.com/daianna21/python_class/blob/master/tareas/Entrez_search.py
+    https://github.com/daianna21/python_class/blob/master/prot_motifs/motifs.py
 '''
 from Bio import PDB
 import argparse
