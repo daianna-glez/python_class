@@ -1,27 +1,20 @@
 # python_class
-## Descripción
-Repositorio para la clase de Python. En este repositorio se almacenan todos los trabajos y programas hechos para la clase de Python 2021
+## Description
+Class Python repository. This repository contains all python scripts done. 
 
-## Motivación
-Llevar un control de versiones de los archivos del repositorio 
+## Motivation
+Control Python programs versions.
 
 ## Requisitos del sistema
-
-*No aplica*
+*Does not apply*
 
 ## Instalación
-*No aplica*
-
-## Guía de usuario
-
-* La carpeta docs contiene notas de la clase
-* La carpeta scr tiene los recursos (datos) para desarrollar los programas
-* La carpeta results contiene los resultados de los programas hechos
+Install Python 
 
 ## Licencia
-*No aplica*
-## Información del contacto
-Autor: González Padilla Daianna
+*Does not apply*
 
+## Información del contacto
+Author: Daianna González Padilla
 E-mail: daianna@lcg.unam.mx
 
