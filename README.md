@@ -5,16 +5,16 @@ Class Python repository. This repository contains all python scripts done.
 ## Motivation
 Control Python programs versions.
 
-## Requisitos del sistema
+## System requirements
 *Does not apply*
 
-## Instalación
+## Install
 Install Python 
 
-## Licencia
+## License
 *Does not apply*
 
-## Información del contacto
+## Contact
 Author: Daianna González Padilla
 E-mail: daianna@lcg.unam.mx
 
