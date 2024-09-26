@@ -401,5 +401,5 @@ for path in args.input:
     except FileNotFoundError as ex:
         print(path,' : File not found')
 
-
+# Siguiente punto: Unir los parseadores de secuencias  a los métodos de análisis funcional
 
