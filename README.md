@@ -1,20 +1,23 @@
 # python_class
+
+Python class, LCG - UNAM undergraduate program. 
+
 ## Description
-Class Python repository. This repository contains all python scripts done. 
+This repository contains all Python scripts created for the class. 
 
 ## Motivation
-Control Python programs versions.
+Version controling of Python scripts.
 
 ## System requirements
-*Does not apply*
+Does not apply.
 
 ## Install
-Install Python 
+Python 
 
 ## License
-*Does not apply*
+Does not apply.
 
 ## Contact
-Author: Daianna González Padilla
+Author: Daianna Gonzalez-Padilla
 E-mail: daianna@lcg.unam.mx
 
